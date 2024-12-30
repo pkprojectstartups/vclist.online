@@ -1,1 +1,18 @@
+vc_firms:
+  - name: "Sequoia Capital"
+    website: "https://www.sequoiacap.com"
+    offices: "Menlo Park, USA"
+    stages: "Seed, Series A, Series B"
+    portfolio_link: "https://www.sequoiacap.com/portfolio"
+    investment_markets: "Technology, Healthcare"
+    linkedin: "https://linkedin.com/company/sequoia-capital"
+    twitter: "https://twitter.com/sequoia"
+  - name: "Accel"
+    website: "https://www.accel.com"
+    offices: "Palo Alto, USA"
+    stages: "Seed, Early Stage, Growth"
+    portfolio_link: "https://www.accel.com/portfolio"
+    investment_markets: "Technology, Consumer"
+    linkedin: "https://linkedin.com/company/accel"
+    twitter: "https://twitter.com/accel"
 
