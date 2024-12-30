@@ -1,0 +1,17 @@
+---
+layout: default
+title: "VC Database"
+---
+
+<h2>VC Database</h2>
+<ul>
+  {% for firm in site.data.vc_firms %}
+    <li>
+      <strong><a href="{{ firm.website }}" target="_blank">{{ firm.name }}</a></strong><br>
+      Offices: {{ firm.offices }}<br>
+      Stages: {{ firm.stages }}<br>
+      <a href="{{ firm.linkedin }}" target="_blank">LinkedIn</a> | 
+      <a href="{{ firm.twitter }}" target="_blank">Twitter</a>
+    </li>
+  {% endfor %}
+</ul>
