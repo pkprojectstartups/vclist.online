@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>{{ page.name }}</h1>
+<p><strong>Website:</strong> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>
+<p><strong>Offices:</strong> {{ page.offices }}</p>
+<p><strong>Stages:</strong> {{ page.stages }}</p>
+
+{% if page.linkedin %}
+  <p><strong>LinkedIn:</strong> <a href="{{ page.linkedin }}" target="_blank">LinkedIn</a></p>
+{% endif %}
+
+{% if page.twitter %}
+  <p><strong>Twitter:</strong> <a href="{{ page.twitter }}" target="_blank">Twitter</a></p>
+{% endif %}
