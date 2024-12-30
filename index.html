@@ -1,19 +1,15 @@
 ---
 layout: default
-title: "VCList.Online"
 ---
+<h1>{{ site.title }}</h1>
+<p>{{ site.description }}</p>
 
-<h2>VC Database</h2>
-<p>A database of 1500+ VC firms.</p>
 <ul>
-  {% for firm in site.data.vc_firms %}
+  {% for firm in site.vc_firms %}
     <li>
-      <strong>
-        <a href="{{ site.baseurl }}/vc_firms/{{ firm.id | slugify }}">{{ firm.name }}</a>
-      </strong>
-      <br>
+      <a href="{{ firm.url }}">{{ firm.title }}</a><br>
       Offices: {{ firm.offices }}<br>
-      Stages: {{ firm.stages }}<br>
+      Stages: {{ firm.stages }}
     </li>
   {% endfor %}
 </ul>
