@@ -8,7 +8,7 @@ title: "VCList.Online"
 <ul>
   {% for firm in site.data.vc_firms %}
     <li>
-      <strong><a href="{{ site.baseurl }}/vc_firms/{{ firm.name | slugify }}" target="_blank">{{ firm.name }}</a></strong><br>
+      <strong><a href="{{ site.baseurl }}/vc_firms/{{ firm.id | slugify }}" target="_blank">{{ firm.name }}</a></strong><br>
       Offices: {{ firm.offices }}<br>
       Stages: {{ firm.stages }}<br>
 
@@ -26,4 +26,3 @@ title: "VCList.Online"
     </li>
   {% endfor %}
 </ul>
-
