@@ -14,16 +14,6 @@ title: "VCList.Online"
       <br>
       Offices: {{ firm.offices }}<br>
       Stages: {{ firm.stages }}<br>
-      {% if firm.linkedin %}
-        <a href="{{ firm.linkedin }}" target="_blank">LinkedIn</a>
-      {% else %}
-        No LinkedIn
-      {% endif %}
-      {% if firm.twitter %}
-        <a href="{{ firm.twitter }}" target="_blank">Twitter</a>
-      {% else %}
-        No Twitter
-      {% endif %}
     </li>
   {% endfor %}
 </ul>
