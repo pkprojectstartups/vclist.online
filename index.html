@@ -4,8 +4,9 @@ title: "VC Database"
 ---
 
 <h2>VC Database</h2>
+<p>A database of 1500+ VC firms.</p>
 <ul>
-  {% for firm in site.data.vc_firms %}
+  {% for firm in site.data.vc_firms.vc_firms %}
     <li>
       <strong><a href="{{ firm.website }}" target="_blank">{{ firm.name }}</a></strong><br>
       Offices: {{ firm.offices }}<br>
