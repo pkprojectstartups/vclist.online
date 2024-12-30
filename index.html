@@ -18,16 +18,14 @@ title: "VCList.Online"
 <ul>
   {% for firm in site.data.vc_firms %}
     <li>
-      <strong><a href="{{ site.baseurl }}/vc_firms/{{ firm.id | slugify }}" target="_blank">{{ firm.name }}</a></strong><br>
+      <strong><a href="{{ site.baseurl }}/vc_firms/{{ firm.id | slugify }}/" target="_blank">{{ firm.name }}</a></strong><br>
       Offices: {{ firm.offices }}<br>
       Stages: {{ firm.stages }}<br>
-
       {% if firm.linkedin %}
         <a href="{{ firm.linkedin }}" target="_blank">LinkedIn</a>
       {% else %}
         No LinkedIn
       {% endif %}
-
       {% if firm.twitter %}
         <a href="{{ firm.twitter }}" target="_blank">Twitter</a>
       {% else %}
@@ -36,3 +34,4 @@ title: "VCList.Online"
     </li>
   {% endfor %}
 </ul>
+
