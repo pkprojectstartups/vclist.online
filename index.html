@@ -12,13 +12,13 @@ title: "VCList.Online"
       Offices: {{ firm.offices }}<br>
       Stages: {{ firm.stages }}<br>
 
-      {% if firm.linkedin and firm.linkedin != "N/A" %}
+      {% if firm.linkedin and firm.linkedin != "" %}
         <a href="{{ firm.linkedin }}" target="_blank">LinkedIn</a>
       {% else %}
         No LinkedIn
       {% endif %}
       
-      {% if firm.twitter and firm.twitter != "N/A" %}
+      {% if firm.twitter and firm.twitter != "" %}
         <a href="{{ firm.twitter }}" target="_blank">Twitter</a>
       {% else %}
         No Twitter
