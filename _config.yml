@@ -1,0 +1,8 @@
+title: "VC Database"
+description: "A database of 1500+ VC firms."
+baseurl: "" # Use "" for root deployment
+url: "https://<your-username>.github.io/vc-database" # Replace with your username
+theme: minima
+plugins:
+  - jekyll-paginate
+paginate: 20 # Number of firms per page
