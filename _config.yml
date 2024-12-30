@@ -6,3 +6,7 @@ theme: minima
 plugins:
   - jekyll-paginate
 paginate: 20 # Number of firms per page
+
+collections:
+  vc_firms:
+    output: true # This will ensure Jekyll generates individual pages
