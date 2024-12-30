@@ -1,6 +1,6 @@
 title: "VC Database"
 description: "A database of 1500+ VC firms."
-baseurl: "" # Use "" for root deployment
+baseurl: "" # Use
 url: "https://pkprojectstartups.github.io/vclist.online" # Replace with your username
 theme: minima
 plugins:
