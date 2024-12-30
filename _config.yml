@@ -18,7 +18,7 @@ paginate: 20
 collections:
   vc_firms:
     output: true  # Ensures individual VC firm pages are generated
-    permalink: /:title/  # Pretty URLs based on firm title
+    permalink: /vclist.online/:title/  # Pretty URLs based on firm title
 
 # Markdown Configuration
 markdown: kramdown
