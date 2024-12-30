@@ -7,7 +7,7 @@ layout: default
 <ul>
   {% for firm in site.vc_firms %}
     <li>
-      <a href="{{ firm.url }}">{{ firm.title }}</a><br>
+      <a href="{{ firm.url | relative_url }}">{{ firm.title }}</a><br>
       Offices: {{ firm.offices }}<br>
       Stages: {{ firm.stages }}
     </li>
