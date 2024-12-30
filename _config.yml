@@ -10,23 +10,15 @@ theme: minima
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-datapage-generator
 
 # Pagination
 paginate: 20
-
-# Dynamic Page Generation
-datapage_generator:
-  datafiles:
-    - vc_firms  # Points to _data/vc_firms.yml
-  template: firm_page  # Layout for individual pages
-  name: "id"  # Use the `id` field from the data file to name pages
-  output_dir: "vc_firms"  # Directory for generated pages
 
 # Collections
 collections:
   vc_firms:
     output: true  # Ensures individual VC firm pages are generated
+    permalink: /:title/  # Pretty URLs based on firm title
 
 # Markdown Configuration
 markdown: kramdown
