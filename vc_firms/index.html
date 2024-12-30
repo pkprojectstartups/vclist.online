@@ -1,9 +1,19 @@
----
-layout: firm_page
-name: "{{ page.name }}"
-website: "{{ page.website }}"
-offices: "{{ page.offices }}"
-stages: "{{ page.stages }}"
-linkedin: "{{ page.linkedin }}"
-twitter: "{{ page.twitter }}"
----
+<ul>
+  {% for firm in site.data.vc_firms %}
+    <li>
+      <strong><a href="{{ site.baseurl }}/vc_firms/{{ firm.id | slugify }}/" target="_blank">{{ firm.name }}</a></strong><br>
+      Offices: {{ firm.offices }}<br>
+      Stages: {{ firm.stages }}<br>
+      {% if firm.linkedin %}
+        <a href="{{ firm.linkedin }}" target="_blank">LinkedIn</a>
+      {% else %}
+        No LinkedIn
+      {% endif %}
+      {% if firm.twitter %}
+        <a href="{{ firm.twitter }}" target="_blank">Twitter</a>
+      {% else %}
+        No Twitter
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
