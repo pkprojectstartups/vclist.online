@@ -1,12 +1,12 @@
 title: "VC Database"
 description: "A database of 1500+ VC firms."
-baseurl: "" # Use
-url: "https://pkprojectstartups.github.io/vclist.online" # Replace with your username
+baseurl: "/vclist.online"  # Ensure baseurl is correctly set
+url: "https://pkprojectstartups.github.io"  # Replace with your username or organization
 theme: minima
 plugins:
   - jekyll-paginate
-paginate: 20 # Number of firms per page
+paginate: 20
 
 collections:
   vc_firms:
-    output: true # This will ensure Jekyll generates individual pages
+    output: true  # Generate pages for individual VC firms
