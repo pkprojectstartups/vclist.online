@@ -1,24 +1,10 @@
 ---
 layout: default
 ---
-
-<h1>{{ page.name }}</h1>
-<p><strong>Website:</strong> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>
+<h1>{{ page.title }}</h1>
 <p><strong>Offices:</strong> {{ page.offices }}</p>
 <p><strong>Stages:</strong> {{ page.stages }}</p>
-<p><strong>Markets:</strong> {{ page.investment_markets }}</p>
-<p><strong>Portfolio:</strong> 
-  {% if page.portfolio_link %}
-    <a href="{{ page.portfolio_link }}" target="_blank">View Portfolio</a>
-  {% else %}
-    Not Available
-  {% endif %}
-</p>
-
-{% if page.linkedin %}
-  <p><strong>LinkedIn:</strong> <a href="{{ page.linkedin }}" target="_blank">LinkedIn</a></p>
-{% endif %}
-
-{% if page.twitter %}
-  <p><strong>Twitter:</strong> <a href="{{ page.twitter }}" target="_blank">Twitter</a></p>
-{% endif %}
+<p><strong>Markets:</strong> {{ page.markets }}</p>
+<p><a href="{{ page.website }}">Visit Website</a></p>
+<p><a href="{{ page.linkedin }}">LinkedIn</a></p>
+<p><a href="{{ page.twitter }}">Twitter</a></p>
