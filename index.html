@@ -11,8 +11,18 @@ title: "VCList.Online"
       <strong><a href="{{ firm.website }}" target="_blank">{{ firm.name }}</a></strong><br>
       Offices: {{ firm.offices }}<br>
       Stages: {{ firm.stages }}<br>
-      <a href="{{ firm.linkedin }}" target="_blank">LinkedIn</a> | 
-      <a href="{{ firm.twitter }}" target="_blank">Twitter</a>
+
+      {% if firm.linkedin and firm.linkedin != "N/A" %}
+        <a href="{{ firm.linkedin }}" target="_blank">LinkedIn</a>
+      {% else %}
+        No LinkedIn
+      {% endif %}
+      
+      {% if firm.twitter and firm.twitter != "N/A" %}
+        <a href="{{ firm.twitter }}" target="_blank">Twitter</a>
+      {% else %}
+        No Twitter
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
