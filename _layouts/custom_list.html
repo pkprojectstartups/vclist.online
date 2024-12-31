@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p>{{ page.meta_description }}</p>
+
+<ul>
+  {% for firm in site.vc_firms %}
+    {% if firm[page.filter.key] contains page.filter.value %}
+      <li>
+        <a href="{{ firm.url }}">{{ firm.title }}</a><br>
+        Offices: {{ firm.offices }}<br>
+        Stages: {{ firm.stages }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
