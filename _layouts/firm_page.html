@@ -1,10 +1,34 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p><strong>Offices:</strong> {{ page.offices }}</p>
-<p><strong>Stages:</strong> {{ page.stages }}</p>
-<p><strong>Markets:</strong> {{ page.markets }}</p>
-<p><a href="{{ page.website }}">Visit Website</a></p>
-<p><a href="{{ page.linkedin }}">LinkedIn</a></p>
-<p><a href="{{ page.twitter }}">Twitter</a></p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.meta_title }}</title>
+    <meta name="description" content="{{ page.meta_description }}">
+    <meta name="keywords" content="{{ page.meta_keywords }}">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="{{ page.meta_title }}">
+    <meta property="og:description" content="{{ page.meta_description }}">
+    <meta property="og:url" content="{{ page.canonical_url }}">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:title" content="{{ page.meta_title }}">
+    <meta name="twitter:description" content="{{ page.meta_description }}">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <h1>{{ page.title }}</h1>
+    <p><strong>Offices:</strong> {{ page.offices }}</p>
+    <p><strong>Stages:</strong> {{ page.stages }}</p>
+    <p><strong>Markets:</strong> {{ page.markets }}</p>
+    <p><a href="{{ page.website }}" target="_blank">Visit Website</a></p>
+    <p><a href="{{ page.linkedin }}" target="_blank">LinkedIn</a></p>
+    <p><a href="{{ page.twitter }}" target="_blank">Twitter</a></p>
+</body>
+</html>
