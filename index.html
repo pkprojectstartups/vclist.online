@@ -5,6 +5,19 @@ layout: default
 <h1>{{ site.title }}</h1>
 <p>{{ site.description }}</p>
 
+<h2>Custom Lists</h2>
+<ul>
+  {% for list in site.custom_lists %}
+    <li>
+      <a href="{{ list.url | relative_url }}">{{ list.title }}</a><br>
+      {{ list.meta_description }}
+    </li>
+  {% endfor %}
+</ul>
+
+
+
+
 <h2>VC Firms</h2>
 <ul>
   {% for firm in site.vc_firms %}
@@ -16,14 +29,6 @@ layout: default
   {% endfor %}
 </ul>
 
-<h2>Custom Lists</h2>
-<ul>
-  {% for page in site.pages %}
-    {% if page.path contains '_custom_lists' %}
-      <li>
-        <a href="{{ page.url | relative_url }}">{{ page.title }}</a><br>
-        {{ page.meta_description }}
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+
+
+
