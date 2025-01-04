@@ -8,8 +8,9 @@ layout: default
 <ul>
   {% for firm in site.vc_firms %}
     {% assign filter_values = page.filter.value | split: ", " %}
+    {% assign firm_values = firm[page.filter.key] | split: ", " %}
     {% for value in filter_values %}
-      {% if firm[page.filter.key] contains value %}
+      {% if firm_values contains value %}
         <li>
           <a href="{{ site.baseurl }}{{ firm.url }}">{{ firm.title }}</a><br>
           Offices: {{ firm.offices }}<br>
@@ -20,4 +21,5 @@ layout: default
     {% endfor %}
   {% endfor %}
 </ul>
+
 
