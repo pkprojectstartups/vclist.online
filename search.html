@@ -1,0 +1,46 @@
+---
+layout: default
+title: "Search"
+---
+
+<h1>Search VC Firms</h1>
+<input type="text" id="searchBox" placeholder="Search by firm name, offices, stages, or markets">
+<ul id="searchResults"></ul>
+
+<script>
+  const searchBox = document.getElementById('searchBox');
+  const searchResults = document.getElementById('searchResults');
+
+  let idx; // Lunr index
+  let searchData; // JSON data
+
+  // Fetch the search index and initialize Lunr.js
+  fetch('{{ site.baseurl }}/search.json')
+    .then(response => response.json())
+    .then(data => {
+      searchData = data;
+      idx = lunr(function () {
+        this.ref('id');
+        this.field('title');
+        this.field('offices');
+        this.field('stages');
+        this.field('markets');
+
+        searchData.forEach(function (doc) {
+          this.add(doc);
+        }, this);
+      });
+    });
+
+  // Search handler
+  searchBox.addEventListener('input', () => {
+    const query = searchBox.value.trim();
+    const results = idx.search(query); // Perform the search
+
+    // Display results
+    searchResults.innerHTML = results.map(result => {
+      const match = searchData.find(d => d.id === result.ref);
+      return `<li><a href="${match.url}">${match.title}</a> - ${match.offices}, ${match.stages}, ${match.markets}</li>`;
+    }).join('');
+  });
+</script>
