@@ -7,12 +7,17 @@ layout: default
 
 <ul>
   {% for firm in site.vc_firms %}
-    {% if firm[page.filter.key] contains page.filter.value %}
-      <li>
-        <a href="{{ site.baseurl }}{{ firm.url }}">{{ firm.title }}</a><br>
-        Offices: {{ firm.offices }}<br>
-        Stages: {{ firm.stages }}
-      </li>
-    {% endif %}
+    {% assign filter_values = page.filter.value | split: ", " %}
+    {% for value in filter_values %}
+      {% if firm[page.filter.key] contains value %}
+        <li>
+          <a href="{{ site.baseurl }}{{ firm.url }}">{{ firm.title }}</a><br>
+          Offices: {{ firm.offices }}<br>
+          Stages: {{ firm.stages }}
+        </li>
+        {% break %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
+
