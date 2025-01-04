@@ -2,45 +2,43 @@
 layout: default
 title: "Search"
 ---
-
 <h1>Search VC Firms</h1>
-<input type="text" id="searchBox" placeholder="Search by firm name, offices, stages, or markets">
-<ul id="searchResults"></ul>
+<input type="text" id="searchBox" placeholder="Search for VC firms...">
+<ul id="results"></ul>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
 <script>
-  const searchBox = document.getElementById('searchBox');
-  const searchResults = document.getElementById('searchResults');
-
-  let idx; // Lunr index
-  let searchData; // JSON data
-
-  // Fetch the search index and initialize Lunr.js
-  fetch('{{ site.baseurl }}/search.json')
+  // Fetch the search index
+  fetch('{{ "/search.json" | relative_url }}')
     .then(response => response.json())
     .then(data => {
-      searchData = data;
-      idx = lunr(function () {
-        this.ref('id');
+      const index = lunr(function() {
         this.field('title');
         this.field('offices');
         this.field('stages');
         this.field('markets');
+        this.ref('id');
 
-        searchData.forEach(function (doc) {
-          this.add(doc);
-        }, this);
+        data.forEach(doc => this.add(doc));
+      });
+
+      // Handle search
+      document.getElementById('searchBox').addEventListener('input', function() {
+        const query = this.value.trim();
+        const results = index.search(query);
+        const resultsContainer = document.getElementById('results');
+        resultsContainer.innerHTML = '';
+
+        results.forEach(result => {
+          const match = data.find(doc => doc.id === result.ref);
+          const listItem = document.createElement('li');
+          listItem.innerHTML = `<a href="${match.url}">${match.title}</a>`;
+          resultsContainer.appendChild(listItem);
+        });
+
+        if (!results.length) {
+          resultsContainer.innerHTML = '<li>No results found</li>';
+        }
       });
     });
-
-  // Search handler
-  searchBox.addEventListener('input', () => {
-    const query = searchBox.value.trim();
-    const results = idx.search(query); // Perform the search
-
-    // Display results
-    searchResults.innerHTML = results.map(result => {
-      const match = searchData.find(d => d.id === result.ref);
-      return `<li><a href="${match.url}">${match.title}</a> - ${match.offices}, ${match.stages}, ${match.markets}</li>`;
-    }).join('');
-  });
 </script>
