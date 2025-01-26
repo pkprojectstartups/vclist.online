@@ -1,0 +1,24 @@
+---
+layout: null
+---
+[
+  {%- assign filter_values = "Life Sciences, Biotech, Life Science, Biotechnology" | split: ", " -%}
+  {%- assign first = true -%}
+  {%- for firm in site.vc_firms -%}
+    {%- assign firm_values = firm.markets | split: ", " -%}
+    {%- for value in filter_values -%}
+      {%- if firm_values contains value -%}
+        {%- if first == false -%},{%- endif -%}
+        {
+          "id": "{{ firm.url | relative_url }}",
+          "title": "{{ firm.title | escape }}",
+          "offices": "{{ firm.offices | escape }}",
+          "stages": "{{ firm.stages | escape }}",
+          "markets": "{{ firm.markets | escape }}"
+        }
+        {%- assign first = false -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+]
