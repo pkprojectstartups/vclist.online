@@ -100,7 +100,7 @@ layout: default
       {% if current_page > 1 %}
         {% assign prev_page = current_page | minus: 1 %}
         <li class="page-item">
-          <a class="page-link" href="{{ base_url }}page{{ prev_page }}/">&laquo; Previous</a>
+          <a class="page-link" href="{{ base_url }}page{{ prev_page }}">&laquo; Previous</a>
         </li>
       {% else %}
         <li class="page-item disabled">
@@ -108,18 +108,49 @@ layout: default
         </li>
       {% endif %}
 
-      <!-- Dynamic Page Links -->
-      {% for page in (1..total_pages) %}
+      <!-- First Page and Leading Ellipsis -->
+      {% if current_page > 4 %}
+        <li class="page-item">
+          <a class="page-link" href="{{ base_url }}page1">1</a>
+        </li>
+        <li class="page-item disabled">
+          <span class="page-link">...</span>
+        </li>
+      {% endif %}
+
+      <!-- Dynamic Page Range -->
+      {% assign range_start = current_page | minus: 2 %}
+      {% assign range_end = current_page | plus: 2 %}
+
+      {% if range_start < 1 %}
+        {% assign range_start = 1 %}
+      {% endif %}
+      {% if range_end > total_pages %}
+        {% assign range_end = total_pages %}
+      {% endif %}
+
+      {% for page in (range_start..range_end) %}
         <li class="page-item {% if page == current_page %}active{% endif %}">
-          <a class="page-link" href="{{ base_url }}page{{ page }}/">{{ page }}</a>
+          <a class="page-link" href="{{ base_url }}page{{ page }}">{{ page }}</a>
         </li>
       {% endfor %}
+
+      <!-- Trailing Ellipsis and Last Page -->
+      {% assign trailing_threshold = total_pages | minus: 3 %}
+      {% if current_page < trailing_threshold %}
+        <li class="page-item disabled">
+          <span class="page-link">...</span>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="{{ base_url }}page{{ total_pages }}">{{ total_pages }}</a>
+        </li>
+      {% endif %}
 
       <!-- Next Page -->
       {% if current_page < total_pages %}
         {% assign next_page = current_page | plus: 1 %}
         <li class="page-item">
-          <a class="page-link" href="{{ base_url }}page{{ next_page }}/">Next &raquo;</a>
+          <a class="page-link" href="{{ base_url }}page{{ next_page }}">Next &raquo;</a>
         </li>
       {% else %}
         <li class="page-item disabled">
@@ -129,4 +160,3 @@ layout: default
     </ul>
   </nav>
 </div>
-
