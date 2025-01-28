@@ -1,7 +1,7 @@
 # Basic Site Settings
-title: "VC Database"
-description: "A database of 1500+ VC firms."
-baseurl: "/vclist.online"  # Path after your GitHub Pages URL
+title: "projectstartups.com"
+description: "projectstartups.com supports startups by offering an open-access VC database, a comprehensive directory of funded startups, and other valuable resources."
+baseurl: ""  # Path after your GitHub Pages URL
 url: "https://pkprojectstartups.github.io"  # Local server URL"  # Replace with your GitHub username or organization
 
 # Theme Settings
