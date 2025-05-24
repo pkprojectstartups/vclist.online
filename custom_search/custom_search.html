@@ -1,0 +1,104 @@
+---
+layout: default
+title: "Search Results"
+permalink: /custom_search.html
+---
+
+<div class="container my-5">
+  <!-- Search Bar -->
+  <form action="{{ site.baseurl }}/custom_search.html" method="get" class="mb-4">
+    <div class="input-group">
+      <input
+        type="text"
+        name="query"
+        class="form-control"
+        placeholder="Search within this list"
+        value="{{ query | escape }}"
+        required
+      />
+      <input type="hidden" name="json" value="{{ json | escape }}" />
+      <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+  </form>
+
+  <!-- Search Results -->
+  <h1>Search Results</h1>
+  <p>
+    Showing results for "<span id="search-query"></span>" in "<span id="list-name"></span>":
+    <span id="result-count" class="text-muted"></span>
+  </p>
+  <div id="search-results">
+    <p>Loading search results...</p>
+  </div>
+</div>
+
+<!-- Lunr.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script>
+  // Parse query parameters
+  const urlParams = new URLSearchParams(window.location.search);
+  const query = urlParams.get('query');
+  const jsonFile = urlParams.get('json');
+
+  // Display the search query
+  document.getElementById('search-query').textContent = query;
+
+  // Pre-fill the search bar
+  document.querySelector('input[name="query"]').value = query;
+  document.querySelector('input[name="json"]').value = jsonFile;
+
+  // Display the custom list name
+  const listName = jsonFile.replace(/\.json$/, '').replace(/_/g, ' ').toUpperCase();
+  document.getElementById('list-name').textContent = listName;
+
+  // Fetch the specified JSON file
+  fetch(`{{ site.baseurl }}/custom_search/${jsonFile}`)
+    .then(response => response.json())
+    .then(data => {
+      // Initialize Lunr.js
+      const idx = lunr(function () {
+        this.field('title');
+        this.field('offices');
+        this.field('investment_stages');
+        this.field('investment_markets');
+        this.ref('id');
+
+        data.forEach(doc => this.add(doc));
+      });
+
+      // Perform the search
+      const results = idx.search(query);
+
+      // Display the total count of results
+      const resultCount = results.length;
+      document.getElementById('result-count').textContent = `(${resultCount} results found)`;
+
+      // Display the search results
+      const resultsContainer = document.getElementById('search-results');
+      if (resultCount) {
+        resultsContainer.innerHTML = results.map(result => {
+          const item = data.find(doc => doc.id === result.ref);
+          return `
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="${item.id}" class="text-decoration-none">${item.title}</a>
+                </h5>
+                <p class="card-text">
+                  Offices: ${item.offices}<br>
+                  Stages: ${item.stages}<br>
+                  Markets: ${item.markets}
+                </p>
+              </div>
+            </div>
+          `;
+        }).join('');
+      } else {
+        resultsContainer.innerHTML = '<p>No results found.</p>';
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching or searching JSON:', error);
+      document.getElementById('search-results').innerHTML = '<p>Error loading search results.</p>';
+    });
+</script>

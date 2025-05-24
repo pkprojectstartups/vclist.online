@@ -1,0 +1,27 @@
+---
+layout: firm_page
+title: "Index Ventures"
+id: "indexventures.com"
+permalink: "/indexventuresindexventures.com/"
+website: "https://www.indexventures.com"
+offices: "San Francisco (United States), New York (United States), London (United Kingdom), Geneva (Switzerland), Jersey (United Kingdom)"
+investment_stages: "Seed, Series A, Series B, Series C"
+portfolio_companies: "Figma, Revolut, Wiz, Scale, Discord, Adyen, Datadog, Roblox, Confluent, Notion, Common Room, 1stdibs, Abacus.ai, Adallom, Adaptive ML, Adfin, Adzuna, Alan, Albert, Algolia, Alkemics, Allara, Anine Bing, Ankorstore, Anrok, Apex, ApplyBoard Inc., Apron, Argent, Arista Networks, Armada Interactive, ArthurAI, Ascend, ASOS, Atlantic Money, Atlar, AttackIQ, Augment, Aurora, Auxmoney, Backbone, BallerTV, Beam, Beamery, Beauty Pie, Because, Behavox, Betfair, Bigger Games, Big Health, Bird, Birdie, BIT ODD, BitPay, BlaBlaCar, Bloom & Wild, Blue Bottle Coffee, Boku, Boulevard, Brightback, BrightGo, BrightHire, BRINC, Built, Capitolis, Captain Train, Captions, cargo.one, Cartesia, Castle, Catch, Causaly, Centrify, Check, CipherCloud, Citymapper, Class Companion, ClickHouse, Inc., Climate, Clumio, Coalition, Cockroach Labs, Cocoon, Codat, Codecademy, CodeSignal, Inc., Cohere, Collibra, ComplyAdvantage, Cord, Covariant.ai, CoverWallet, Cowboy, Cradle, Creative Juice, Credit Benchmark, Criteo, Crossing Minds, Culture Amp, Curbside, Curtsy, Cutover, Datadog, DataSnipper, Daydream, DeepL, Deepnote, DeepScribe, Deliveroo, /dev/agents, Discord, Dot Product, Double, DraftWise, Dream Games, Drivy, Dropbox, Duffel, Duo, EDITED, Elastic, Elementl, Empathy, EthonAI, Etsy, evervault, Expel, Facebook, FACEIT, Factual, Farfetch, Feathery, Fireblocks, Flagship, flatfair, Flipboard, Fonoa, Footprint, Funding Circle, Gather, Gatsby, GeoPhy, GetHarley, Glossier, GOAT, Gong, Good Eggs, Goody, Grailed, Greg, Gremlin, Gruppo MutuiOnline, Harmonic, Hebbia, Hoop, Hortonworks, Humanloop, Humu, Hutch Games, Hyperline, Ideogram AI, Immersive Gamebox, incident.io, Instabase, Intercom, Iterable, iZettle, Josh Wood Colour, Jumbo, Jump, Just Eat, JustPark, Justworks, Kayrros, King, Kong, KRY | LIVI, Lacoon, Last.fm, Lever, Lightning AI, Linear, Linktree, Linx Security, Lithic, Loctax, Lookout, Loop, LoveFilm, Matera, Mercantile, Metromile, Milestone, Mimecast, Mistral, Moleskine, Monad, Monograph, Montonio, MOO, Motive, Motorway, Multiverse, MyHeritage, MySQL, Nacelle, Natoma, navabi, Net-A-Porter, Netlog, Newfront, nexos.ai, Nexthink, NOTHS, Nourish, Nova Credit, Novus, OANDA, Okendo, onefinestay, OpenX, Otrium, Otterize, Outbrain, OZON.ru, Patreon, Pave, Peanut, Pentaho, Peoplevox, Pepper, Persona, Personio, Phaidra, PhotoBox, Pilot, Piñata Farms, Pitch, Plaid, Plain, Playfish, PointFive, Pomelo, Printify, Privalia, Prodigy Finance, Productboard, Pure Storage, Qapa, Quantive, Quill, Quixotic, Raisin, ReadySet, Rebtel, Reclaim.ai, Rec Room, Remote, Resistant AI, RevenueCat, Revolut, Rightscale, Robinhood, Roblox, Rohlik, Roli, Rooser, RPX Corporation, SafetyCulture, Sanlo, Savvy, Scale, Science Exchange, Scoop, Second Home, Secret Escapes, Seedcamp, SeedLegals, ServiceTitan, Seso, Shapeways, Shopmonkey, Signal Sciences, Silverfin, Siro, Skype, Slack, Socialbakers, Sofía, Solvo, Sourceful, Spendesk, Squarespace, Stack Overflow, Starburst, Strapi, Stytch, Sublime Security, Subset, Supercell, Superconductive, Super Evil Megacorp, Superlinked, Supersolid, SwiftKey, Swile, Sylvera, Tactile Games, Tacto, Taktile, Taxfix, Teatime Games, Tebi, Teemo, Tekion, Tema, Temporal, tessl.ai, Thatch, The Business of Fashion, Thread AI, Tiney, Tofu, Toolbx, Topi, Transcend, Trello, Trialpay, Trolltech, Trouva, Trustpilot, Twelve Labs, Typeform, Ubiquity6, Upollo, Valdera, Vetted, Vizcom, Vooma, Vouch, Wealthfront, Weaviate, WeTravel, Wise, Wiz, Wordsmith, Workbounce, Worldover, Xata, Zendesk, Zuora"
+portfolio_link: "https://www.indexventures.com/companies/"
+investment_markets: "AI/ML, Business Applications, Data, Entertainment, Fintech, Future Of Work, Healthcare, Media, Mobility, Open Source, Retail, Security, Talent"
+founded_year: "1996"
+description: "Index Ventures is a global venture capital firm partnering with ambitious entrepreneurs from seed stage to IPO. They focus on building real relationships with founders across various industries. Their investment philosophy emphasizes backing visionaries and game-changers."
+linkedin: "https://www.linkedin.com/company/index-ventures"
+twitter: "http://twitter.com/indexventures"
+instagram: ""
+team_page: "https://www.indexventures.com/team/"
+investor_type: "Venture Capital"
+crunchbase: "https://www.crunchbase.com/organization/index-ventures"
+pitchbook: ""
+
+# SEO Optimization
+meta_title: "Index Ventures - VC Firm - projectstartups.com"
+meta_description: "Index Ventures, Index Ventures is a global venture capital firm partnering with ambitious entrepreneurs from seed stage to IPO. They focus on building real relationsh..."
+meta_keywords: "Index Ventures, AI/ML, Business Applications, Data, Entertainment, Fintech, Future Of Work, Healthcare, Media, Mobility, Open Source, Retail, Security, Talent, VC firm, venture capital, startup investor, projectstartups.com"
+canonical_url: "https://vc.projectstartups.com/indexventuresindexventures.com/"
+---

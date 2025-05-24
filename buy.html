@@ -1,0 +1,90 @@
+---
+layout: default
+title: Buy VC Lists
+meta_title: Buy VC Database Lists
+meta_description: Purchase curated venture capital firm lists across different sectors and regions.
+permalink: /buy/
+---
+
+<!-- Header Section -->
+<section class="bg-light py-5 mb-4 border-bottom">
+  <div class="container">
+    <h1 class="display-5 fw-bold text-primary mb-3">Buy VC Lists</h1>
+    <p class="lead text-secondary mb-0">
+      Purchase curated VC firm lists categorized by sector, region, and stage. Rich data including firm name, website, investment focus, portfolio, and more.
+    </p>
+  </div>
+</section>
+
+<!-- Product Intro -->
+<div class="container">
+  <div class="mb-4">
+    <h2 class="h4 fw-semibold text-primary mb-2">Explore available lists</h2>
+    <p class="text-secondary">
+      Each list includes detailed fields such as 
+      <strong class="text-dark">Firm Name, Website, Investment Stages, Markets, Portfolio Companies, Team Page, Crunchbase, LinkedIn</strong>, and more.
+    </p>
+  </div>
+
+  <!-- Product Cards -->
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% assign products = 
+      "VC firms full database - projectstartups.com|1350|$45|https://payhip.com/b/72yFz,
+      Pre-Seed VC Firms  - projectstartups.com|332|$15|https://payhip.com/b/1bm6W,
+      Seed VC Firms - projectstartups.com|744|$20|https://payhip.com/b/cs7UQ,
+      AI VC firms - projectstartups.com|200|$12|https://payhip.com/b/O49Bv,
+      Africa VC firms - projectstartups.com|33|$5|https://payhip.com/b/Cjqc9,
+      Asia VC firms - projectstartups.com|313|$14|https://payhip.com/b/Co4Ic,
+      B2B VC firms - projectstartups.com|425|$16|https://payhip.com/b/JrHiP,
+      Biotech VC firms - projectstartups.com|136|$9|https://payhip.com/b/UKNxP,
+      Blockchain VC firms - projectstartups.com|164|$10|https://payhip.com/b/V2CQj,
+      China VC firms - projectstartups.com|45|$5|https://payhip.com/b/jofTh,
+      Climate VC firms - projectstartups.com|268|$13|https://payhip.com/b/oRywA,
+      Consumer VC firms - projectstartups.com|320|$14|https://payhip.com/b/vQZSN,
+      Cybersecurity VC firms - projectstartups.com|227|$12|https://payhip.com/b/ymAz9,
+      Devtools VC firms - projectstartups.com|73|$7|https://payhip.com/b/83wGV,
+      Ecommerce VC firms - projectstartups.com|249|$13|https://payhip.com/b/d2qRP,
+      Edtech VC firms - projectstartups.com|73|$7|https://payhip.com/b/w9c2o,
+      Europe VC firms - projectstartups.com|374|$15|https://payhip.com/b/QfBq3,
+      Fintech VC firms - projectstartups.com|604|$20|https://payhip.com/b/qDJH1,
+      Foodtech AgTech VC firms - projectstartups.com|217|$12|https://payhip.com/b/VPu9K,
+      Gaming VC firms - projectstartups.com|107|$8|https://payhip.com/b/68Cb2,
+      Germany VC firms - projectstartups.com|83|$7|https://payhip.com/b/a4OH9,
+      Health Care VC firms - projectstartups.com|556|$18|https://payhip.com/b/kchWz,
+      India VC firms - projectstartups.com|110|$8|https://payhip.com/b/Iu6Uj,
+      Insurtech VC firms - projectstartups.com|93|$7|https://payhip.com/b/Abw9M,
+      Israel VC firms - projectstartups.com|77|$7|https://payhip.com/b/LzN25,
+      Logistics VC firms - projectstartups.com|250|$13|https://payhip.com/b/ydXrH,
+      Los Angeles VC firms - projectstartups.com|63|$6|https://payhip.com/b/2ePfC,
+      Media Entertainment VC firms - projectstartups.com|226|$12|https://payhip.com/b/tg9DX,
+      New York VC firms - projectstartups.com|233|$12|https://payhip.com/b/DwY7F,
+      Proptech VC firms - projectstartups.com|154|$10|https://payhip.com/b/GXMvc,
+      Robotics Hardware VC firms - projectstartups.com|322|$14|https://payhip.com/b/ji3Pb,
+      San Francisco VC firms - projectstartups.com|267|$13|https://payhip.com/b/idx8b,
+      Silicon Valley VC firms - projectstartups.com|155|$10|https://payhip.com/b/eUIyc,
+      Software SaaS VC firms - projectstartups.com|524|$18|https://payhip.com/b/dMaYS,
+      Space VC firms - projectstartups.com|72|$7|https://payhip.com/b/QmsX6,
+      UK VC firms - projectstartups.com|192|$11|https://payhip.com/b/2iQIC,
+      USA VC firms - projectstartups.com|887|$22|https://payhip.com/b/8gLTO" | split: "," 
+    %}
+
+    {% for item in products %}
+      {% assign parts = item | split: "|" %}
+      {% assign name = parts[0] %}
+      {% assign count = parts[1] %}
+      {% assign price = parts[2] %}
+      {% assign url = parts[3] | strip %}
+      <div class="col">
+        <a href="{{ url }}" target="_blank" class="text-decoration-none text-dark">
+          <div class="card h-100 border border-primary shadow-sm hover-shadow">
+            <div class="card-body">
+              <h5 class="card-title">{{ name }}</h5>
+              <p class="card-text mb-1"><strong>Price:</strong> {{ price }}</p>
+              <p class="card-text text-muted small mb-0">{{ count }} VC firms included</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

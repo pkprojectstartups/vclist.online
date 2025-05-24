@@ -1,0 +1,27 @@
+---
+layout: firm_page
+title: "Canaan"
+id: "canaan.com"
+permalink: "/canaancanaan.com/"
+website: "https://www.canaan.com"
+offices: "Stamford (United States), New York (United States), Menlo Park (United States), San Francisco (United States), Westport (United States)"
+investment_stages: "Seed, Series A, Series B"
+portfolio_companies: "Abyrx, Aceiss, ACTIVE Network, Advanced BioHealing, Aeva, Agomab Therapeutics, Aim Security, AirEye, Alkymi, Alphina Therapeutics, Alsius Corporation, AlterEgo Networks, Ambra Health, Amicus Therapeutics, Antiva Biosciences, Apartment List, Apex.AI, Apieron, apisec.ai, Appsmith, Arbor, Arbor Networks, Archipelago, Argon Networks, Arrakis Therapeutics, Artie, Arvinas, Associated Content, Astra, AtheroMed, Axcelius, Axis Security, Azibo, Beckon, Bellhop, Berkshire Grey, Bev, Binarly, BiPar Sciences, Inc., Bird, Blurb, Bond, BoostUp, Bravo Sierra, Brigit, Bumblebee Spaces, Bumped, Buzzer, Bzaar, Calibra Medical, Calixa Therapeutics, Canaan Partners Israel, Canopy, Capella Space, CAPMAC Holdings, Capstone Turbine Corporation, Cardlytics, Cargomatic, CatalYm, Cell Pathways, Cellular Research, Cerexa, Chimerix, CircleUp, Civitas Therapeutics, Clutch, Coinmine, CombinatoRx, Commerce One, Commonwealth, CompStak, Concord Communications, Contentsquare, Copper Mountain Network, Cortina Systems, Corvium, Coterie, Countable, CrossLogix, Curtsy, Cuyana, Cynomi, CytomX, Data Sciences International, Day One Biopharmaceuticals, Dermira, DexCom, Dexterra, Diffusion Software, Diligent Robotics, DoubleClick, Dragos, Drivetime, Durata Therapeutics, Dusty Robotics, Earnipay, Ebates, Echopass, Edge Impulse, Elevation Pharmaceuticals, Embroker, Emissary, EndoGastric Solutions, Engine by MoneyLion, Enpirion, Enterpret, Envisia, Eon Laboratories, Ephemeral, Esperion Therapeutics, eStamp, Everdream Corporation, Fireflies.ai, FLA Holdings, Forte, Frame Technology, Gen.G, Genome Medical, GenVec, Glooko, Grey Wolf Therapeutics, GrokStyle, GroundWork Open Source, Habeas, Halda Therapeutics, Hermeus, Highrise, Homeis, Hugo, Hyalex Orthopaedics, ID Analytics, IDEAYA Biosciences, Immunicon Corporation, Instacart, Instante Software, Instrumental, IntelliCare, Interact Commerce, International Network Services, IntraLinks, Intraware, IntrepidiaBio, iPrint Technologies, Istante Software, Italic, Iterum Therapeutics, Jina AI, JobDirect.com, Join, JOOR, Journey Meditation, Jumpcut, Juno, Kabam, Kalpana, Kepler Communications, Kickpay, Kin Euphorics, Kinecta Corporation, Komprise, Kustomer, Labrys Biologics, Ladder, Lancope, Latitude Communications, Leanplum, LendingClub, Lev, Lily AI, Liquidia Technologies, LiveU, MachEye, ManiMe, Mariner Health Group, Marinus Pharmaceuticals, Marvin, Match.com, Matrimony, Matrix Pharmaceutical, Metacloud, MightyTV, MindTickle, Mira, Mobilitec, Mosey, MoviePass, Mynd, Nagish, Network Engines, NextCure, Nocion, Normunity, Northstar Neuroscience, Novira Therapeutics, nTopology, Ollie, On Deck, ON24, OncoLinea Pharmaceuticals, OncoResponse, OnDemand, Onefinestay, OneSource Services, ONI Systems Corporation, Onkos Surgical, OpenSky, OraPharma, Orchard, Papa, Pathios Therapeutics, Paxos, Peer39, Peninsula Pharmaceuticals, PerimeterX, Players' Lounge, Plixi, Podz, Pozen, Praecis Pharmaceuticals, Prax Health, Premier Laboratory Services, PrimeSense, Property Capsule, Protagonist Therapeutics, Qlaris Bio, Quantum Circuits Inc., RADD Pharmaceuticals, Rallybio, RamRe, Reibus, Relievant Medsystems, Renofi, Revivant, RightPoint, Ro, Rocketrip, SandForce, SAVVY, Semnur Pharmaceuticals, Sensage, ShopKeep, Sidechat, Silicon Optix, SilverRail, Skale Labs, Skybox Imaging, Snyk, SOASTA, Solvely.ai, Sounding Board, Spectrian, Spinifex Pharmaceuticals, SuccessFactors, Suiza Foods, Superplastic, Switchfly, Synthekine, Tacit Networks, Tallan, Taptap Send, Tari, Telaria, The Inside, The Meta, The RealReal, Tia, Tizona Therapeutics, Tobira Therapeutics, Tomorrow.io, Transcend Medical, Transposon Therapeutics, Trishula Therapeutics, Tropic, TrueFort, Truveris, Tubular Labs, Turo, Twenty20, Tyra, Unchained Labs, Unifi, Uniform Teeth, UrbanSitter, URoam, Victorious, Virsto Software, Visigenic Software, Visiprise, Vivace Therapeutics, Voyence, Vue Technology, Webloyalty.com, WiseLayer, withco, WorkMotion, World View, Xirrus, Zmanda, Zugata"
+portfolio_link: "https://www.canaan.com/companies"
+investment_markets: "Healthcare, Technology"
+founded_year: "1987"
+description: "Canaan is an early-stage venture capital firm that invests in visionaries with transformative ideas. They partner with companies across healthcare and technology, providing support from initial stages to later growth. Their approach prioritizes a personal touch and long-term collaboration."
+linkedin: "https://www.linkedin.com/company/canaan-partners"
+twitter: "https://twitter.com/canaanpartners"
+instagram: ""
+team_page: "https://www.canaan.com/team"
+investor_type: "Venture Capital"
+crunchbase: "https://www.crunchbase.com/organization/canaan-partners"
+pitchbook: ""
+
+# SEO Optimization
+meta_title: "Canaan - VC Firm - projectstartups.com"
+meta_description: "Canaan, Canaan is an early-stage venture capital firm that invests in visionaries with transformative ideas. They partner with companies across healthcare and..."
+meta_keywords: "Canaan, Healthcare, Technology, VC firm, venture capital, startup investor, projectstartups.com"
+canonical_url: "https://vc.projectstartups.com/canaancanaan.com/"
+---

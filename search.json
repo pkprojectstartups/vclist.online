@@ -1,0 +1,15 @@
+---
+layout: null
+---
+[
+  {% for firm in site.vc_firms %}
+  {
+    "id": "{{ firm.url | relative_url }}",
+    "title": "{{ firm.title | escape }}",
+    "offices": "{{ firm.offices | escape }}",
+    "investment_stages": "{{ firm.investment_stages | escape }}",
+    "investment_markets": "{{ firm.investment_markets | escape }}"
+  }
+  {% if forloop.last == false %},{% endif %}
+  {% endfor %}
+]

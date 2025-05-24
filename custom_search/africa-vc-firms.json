@@ -1,0 +1,29 @@
+---
+layout: null
+---
+[
+  {%- assign filter_values = "algeria, angola, benin, botswana, burkina faso, burundi, cabo verde, cameroon, central african republic, chad, comoros, democratic republic of the congo, republic of the congo, djibouti, egypt, equatorial guinea, eritrea, eswatini, ethiopia, gabon, gambia, ghana, guinea, guinea-bissau, ivory coast, kenya, lesotho, liberia, libya, madagascar, malawi, mali, mauritania, mauritius, morocco, mozambique, namibia, niger, nigeria, rwanda, são tomé and príncipe, senegal, seychelles, sierra leone, somalia, south africa, south sudan, sudan, tanzania, togo, tunisia, uganda, zambia, zimbabw" | split: ", " -%}
+  {%- assign first = true -%}
+  {%- for firm in site.vc_firms -%}
+    {%- assign firm_field = firm["offices"] | default: "" | downcase -%}
+    {%- assign match_found = false -%}
+    {%- for filter_value in filter_values -%}
+      {%- assign filter_value_clean = filter_value | strip -%}
+      {%- if firm_field contains filter_value_clean -%}
+        {%- assign match_found = true -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if match_found -%}
+      {%- if first == false -%},{%- endif -%}
+      {
+        "id": "{{ firm.url | relative_url }}",
+        "title": "{{ firm.title | escape }}",
+        "offices": "{{ firm.offices | escape }}",
+        "investment_stages": "{{ firm.investment_stages | escape }}",
+        "investment_markets": "{{ firm.investment_markets | escape }}"
+      }
+      {%- assign first = false -%}
+    {%- endif -%}
+  {%- endfor -%}
+]

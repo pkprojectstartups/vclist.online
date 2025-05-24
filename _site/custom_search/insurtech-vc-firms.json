@@ -1,0 +1,547 @@
+[{
+        "id": "/9yardscapital9yardscapital.com/",
+        "title": "9Yards Capital",
+        "offices": "New York (United States), Los Angeles (United States), London (United Kingdom)",
+        "investment_stages": "Series A, Series B, Series C",
+        "investment_markets": "Software, Cyber/Defense, Fintech/Insurtech, Supply Chain"
+      },{
+        "id": "/a91partnersa91partners.com/",
+        "title": "A91 Partners",
+        "offices": "Mumbai (India), Gandhinagar (India)",
+        "investment_stages": "Series A, Series B, Series C",
+        "investment_markets": "Software, Customer communication software, Financial Services, Modern insurance, Consumer, Smart, energy efficient consumer electricals, Consumer Beauty and personal care"
+      },{
+        "id": "/accionaccion.org/",
+        "title": "Accion",
+        "offices": "Washington (United States), Bogota (Colombia), Mumbai (India), Bangalore (India)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "Fintech, Agri-fintech, Insurtech, MSME Finance, Consumer Finance, Embedded Finance, Infrastructure, Business Services, Future of Work"
+      },{
+        "id": "/aforecapitalafore.vc/",
+        "title": "Afore Capital",
+        "offices": "San Francisco (United States)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "Hardware, Security, Web3, AR/VR, B2B, API, Gaming, Insurtech, Dev Tools, Infrastructure, Consumer, SaaS, Marketplace, Healthcare, FinTech, AI"
+      },{
+        "id": "/amadeuscapitalpartnersamadeuscapital.com/",
+        "title": "Amadeus Capital Partners",
+        "offices": "London (United Kingdom), Cambridge (United Kingdom), San Francisco (United States)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "AI and Machine Learning, Consumer Services, Cyber Security, Digital Health and Medical Technology, Digital Media, Enterprise Software, FinTech, InsurTech and RegTech, Semiconductors and Displays, Telecoms Infrastructure"
+      },{
+        "id": "/americanfamilyventuresamfamventures.com/",
+        "title": "American Family Ventures",
+        "offices": "Boston (United States), Madison (United States), Minneapolis (United States), New York (United States), Philadelphia (United States), Chicago (United States)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Insurance, Fintech, Proptech, Cybersecurity, Analytics, Automotive, Construction, Mobility, Administration, Marketing, Devices"
+      },{
+        "id": "/atxventurepartnersatxventurepartners.com/",
+        "title": "ATX Venture Partners",
+        "offices": "Austin (United States)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "B2B software, APIs, marketplaces, frontier tech, applications, AI, IoT, Logistics &amp; Freight, Real Estate &amp; Construction, Manufacturing &amp; Supply Chain, Identity &amp; Future of Work, AI/ML/LLM, Fintech, Banking &amp; Insurtech, Data Infrastructure, Retail, eCommerce &amp; Inventory"
+      },{
+        "id": "/avpaxavp.com/",
+        "title": "AVP",
+        "offices": "New York (United States), London (United Kingdom), Paris (France)",
+        "investment_stages": "Seed, Series A, Series B, Series C",
+        "investment_markets": "Enterprise software, Fintech, Insurtech, Digital health, Consumer tech"
+      },{
+        "id": "/becocapitalbecocapital.com/",
+        "title": "BECO Capital",
+        "offices": "Dubai (United Arab Emirates)",
+        "investment_stages": "Late Seed, Pre Series A, Series A",
+        "investment_markets": "Enterprise Software, PropTech, FinTech, InsurTech, HRTech, Mobility, Transportation, Marketplaces, eSports, E-commerce, Cyber Security, HealthTech, FoodTech, AR, VR, Construction"
+      },{
+        "id": "/bigsurventuresbigsurventures.vc/",
+        "title": "Big Sur Ventures",
+        "offices": "Madrid (Spain)",
+        "investment_stages": "Pre-seed, Seed, Series A",
+        "investment_markets": "E-Commerce, Food-tech, SaaS, Travel, Fintech, Insurtech, HealthCare, DevOps, Logistics, Marketplace, Mobility, AI, Deep Tech, Energy Storage, New Materials, EdTech, Cybersecurity, IaaS, ITServices, ITOutsourcing, ReCommerce, Luxury, Digital Life, Future of Work, Managed Marketplace, Market Network, Supply Chain"
+      },{
+        "id": "/bondbondcap.com/",
+        "title": "BOND",
+        "offices": "San Francisco (United States)",
+        "investment_stages": "Series B, Series C, Series D, Series E",
+        "investment_markets": "Enterprise Software, SaaS, AI/ML, Automation, Consumer Internet, FinTech, InsurTech, EdTech, E-commerce, Robotics"
+      },{
+        "id": "/breegabreega.com/",
+        "title": "Breega",
+        "offices": "Paris (France), London (United Kingdom), Barcelona (Spain)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "Adtech, Agritech, Consumer, Cybersecurity, Deeptech, Electronics, Fintech, Foodtech, Greentech, Healthtech, HRtech, Insurtech, IOT, Logistics, Martech, Mobility, Productivity, Proptech, Quantum Computing, Regtech, Telco, Telecom"
+      },{
+        "id": "/brewerlaneventuresbrewerlane.com/",
+        "title": "Brewer Lane Ventures",
+        "offices": "Boston (United States)",
+        "investment_stages": "Series A, Series B",
+        "investment_markets": "Finance, Insurance, Healthcare Technology, FinTech, InsurTech"
+      },{
+        "id": "/canarycanary.com.br/",
+        "title": "Canary",
+        "offices": "São Paulo (Brazil)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "AgTech, Marketplaces, Digital Health, E-commerce, EdTech, InsurTech, Logistics, PropTech, Cyber Security, Web 3, B2B, Software, Consumer"
+      },{
+        "id": "/capnamicventurescapnamic.com/",
+        "title": "Capnamic Ventures",
+        "offices": "Berlin (Germany), Cologne (Germany), Munich (Germany)",
+        "investment_stages": "Pre-Seed, Seed, Series A",
+        "investment_markets": "Software, Fintech, Logistics, AI, Healthtech, Insurtech, E-commerce, Construction, Sustainability, Data Privacy, Wearable Technology, Robotics"
+      },{
+        "id": "/chicagoventureschicagoventures.com/",
+        "title": "Chicago Ventures",
+        "offices": "Chicago (United States)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Fintech, Healthcare, Supply Chain, Logistics &amp; Warehousing, Enterprise Tools, Consumer Media &amp; Entertainment, Data Management, Proptech, Small Business Tools, Mobility, Agriculture, Commerce, Retail, Construction, Education, Energy, Gaming, Hospitality, Insurance, Legal, Marketing, Productivity Tools, Telecommunications, Travel, Workforce Management"
+      },{
+        "id": "/clocktowerventuresclocktowerventures.com/",
+        "title": "Clocktower Ventures",
+        "offices": "Santa Monica (United States), London (United Kingdom)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Lending, Credit &amp; Banking, Payments, Insurance, Capital Markets &amp; Investments, Personal Finance, Enterprise Financial Stack, Real Estate Finance"
+      },{
+        "id": "/cocooncapitalcocooncap.com/",
+        "title": "Cocoon Capital",
+        "offices": "Singapore (Singapore)",
+        "investment_stages": "Pre-seed, Seed",
+        "investment_markets": "Deeptech, Enterprise tech, Fintech, InsurTech, Enterprise Applications, Enterprise Software, Financial Services"
+      },{
+        "id": "/cogitocapitalpartnerscogitocap.com/",
+        "title": "Cogito Capital Partners",
+        "offices": "Warsaw (Poland), New York (United States)",
+        "investment_stages": "Series A, Series B",
+        "investment_markets": "enterprise software &amp; data analytics, fintech &amp; insurtech, healthtech"
+      },{
+        "id": "/commerceventurescommerce.vc/",
+        "title": "Commerce Ventures",
+        "offices": "San Francisco (United States)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Retail Tech, Payment Tech, Insurance Tech, Banking Tech"
+      },{
+        "id": "/commerzventurescommerzventures.com/",
+        "title": "CommerzVentures",
+        "offices": "Frankfurt am Main (Germany)",
+        "investment_stages": "Series A, Series B, Series C",
+        "investment_markets": "FinTech, InsurTech"
+      },{
+        "id": "/dcvcdcvc.com/",
+        "title": "DCVC",
+        "offices": "Palo Alto (United States), San Francisco (United States)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "Climate, Computational Bio &amp; Chem, Cybersecurity, Security &amp; Defense, Enterprise Enablement, Finance &amp; Insurance, Foundational Technology, Industrial Transformation, Smart Agriculture, Space, TechBio, TechMed"
+      },{
+        "id": "/draperassociatesdraper.vc/",
+        "title": "Draper Associates",
+        "offices": "San Mateo (United States)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "FinTech, GovTech, Health Care, Education, Insurance, Logistics, Enterprise Tech, Consumer Tech, Blockchain"
+      },{
+        "id": "/earlgreycapitalearlgrey.capital/",
+        "title": "Earl Grey Capital",
+        "offices": "Austin (United States)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "API, Protocols, Platforms, Infrastructure, Fintech, AI, ML, Developer Tools, SaaS, Web3, Health, E-Commerce, Gaming, Edtech, Insurance, Energy, Marketplace, Collaboration Tools, Crypto, NFT, Sales Tools, Transportation, Productivity, Analytics, Marketplace, Robotics"
+      },{
+        "id": "/elaiaelaia.com/",
+        "title": "Elaia",
+        "offices": "Paris (France), Barcelona (Spain), Tel Aviv (Israel)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Biotech, Climate Change, Cloud Infrastructure, Cybersecurity, Data &amp; Digital Acceleration, Digital Health, Digital Life Sciences, Digital Transformation, Fintech, Insurtech, Remote Human Organization, Semiconductors"
+      },{
+        "id": "/emergingventuresemerging.vc/",
+        "title": "Emerging Ventures",
+        "offices": "Calabasas (United States), Los Angeles (United States)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "AI, Analytics, Ad Tech, Agricultural Tech, Biotechnology, Blockchain, Computer Vision, Construction Tech, Creator Tools, Drones, E-Commerce, Education, Entertainment, Events, Fintech, Gaming, Government Tech, Health Tech, HR Tech, Imaging, Industrial Tech, Insurance, Legal, Marketing Tech, Navigation, NFT, Property Tech, Robotics, SaaS, Security, Sensors, Social, Space, Telecom, Travel, Virtual Reality"
+      },{
+        "id": "/emphasisventuresem.vc/",
+        "title": "Emphasis Ventures",
+        "offices": "New York (United States), Bengaluru (India), Washington (United States), Mumbai (India)",
+        "investment_stages": "Pre-Seed, Seed, Series A",
+        "investment_markets": "Fintech, Financial Services, Commerce Enablement, Digital Infrastructure, Insurance, Payments, Banking, Asset Management, Consumer Finance, Credit, Blockchain, Generative AI"
+      },{
+        "id": "/entrecapitalentreecap.com/",
+        "title": "Entrée Capital",
+        "offices": "Tel Aviv (Israel), London (United Kingdom), New York (United States)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "FinTech, InsurTech, E-Commerce, Consumer Tech, DeepTech, DevOps, Data, Cybersecurity, Crypto, Blockchain, FoodTech, AgTech, Games, Social, Health, Life Sciences, Logistics, Industry 4.0, PropTech, SaaS"
+      },{
+        "id": "/eosventurepartnerseosvc.com/",
+        "title": "Eos Venture Partners",
+        "offices": "London (United Kingdom)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Insurance, Cybersecurity, Health, Wealth, Employee Benefits, Property"
+      },{
+        "id": "/eqtventureseqtventures.com/",
+        "title": "EQT Ventures",
+        "offices": "Stockholm (Sweden), London (United Kingdom), Berlin (Germany), Paris (France), San Francisco (United States), Amsterdam (Netherlands), New York (United States)",
+        "investment_stages": "Seed, Series A, Series B, Series C",
+        "investment_markets": "Enterprise Software, FinTech, InsurTech, Mobility, Robotics, Digital Media, HealthTech, Digital Health, Cyber Security, PropTech, Manufacturing, Data Analytics, AI"
+      },{
+        "id": "/equalvcequal.vc/",
+        "title": "Equal VC",
+        "offices": "New York (United States)",
+        "investment_stages": "Seed",
+        "investment_markets": "Climate, Insurance &amp; Benefits, Retail, Supply Chain &amp; Logistics"
+      },{
+        "id": "/f2venturecapitalf2vc.com/",
+        "title": "F2 Venture Capital",
+        "offices": "Tel Aviv (Israel)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "Cyber Security, Artificial Intelligence, Data Enrichment, Insurtech, Fintech, Legal, eCommerce, Travel, Cloud Infrastructure, AI Ops, HR, Gaming"
+      },{
+        "id": "/finchcapitalfinchcapital.com/",
+        "title": "Finch Capital",
+        "offices": "Amsterdam (Netherlands), London (United Kingdom), Dublin (Ireland)",
+        "investment_stages": "Series A, Series B",
+        "investment_markets": "Financial Services, Real Estate, Health, Business Technology (HR &amp; Payroll, Tax &amp; Accounting, Regulatory, Legal &amp; Compliance, Business Process Automation), Finance Technology (Insurance, Payments, Banking &amp; Wealth)"
+      },{
+        "id": "/fintechventuresfundfintechv.com/",
+        "title": "Fintech Ventures Fund",
+        "offices": "Atlanta (United States), New York (United States)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "Fintech, Insurtech, Banking, Capital Markets, Lending, Private Credit, Insurance"
+      },{
+        "id": "/fjlabsfjlabs.com/",
+        "title": "FJ Labs",
+        "offices": "New York (United States)",
+        "investment_stages": "Seed, Series A, Series B, Series C",
+        "investment_markets": "Marketplaces, eCommerce, Fintech &amp; Insurtech, Logistics, Travel &amp; Lifestyle, Gaming, Digital Health, Proptech &amp; Home Improvements, Agtech &amp; Climate, Crypto &amp; Web3, Business Productivity Tools, Recruitment, Industrials &amp; Construction, Foodtech"
+      },{
+        "id": "/floodgatefundfloodgate.com/",
+        "title": "Floodgate Fund",
+        "offices": "Menlo Park (United States)",
+        "investment_stages": "Pre-seed, Seed",
+        "investment_markets": "Technology, Artificial Intelligence, Enterprise, Healthcare, Consumer, Fintech, Crypto, Edtech, Gaming, Ecommerce, Food Tech, Real Estate, Logistics &amp; Supply Chain, Marketing &amp; Advertising, Information Technology &amp; Services, Hospital &amp; Health Care, Biotechnology, Video, Social, Wireless, Energy, Data, Financial Services, Insurance, Manufacturing, Marketplace, Transportation, Low Code, Security, Knowledge Management, Communication"
+      },{
+        "id": "/flourishventuresflourishventures.com/",
+        "title": "Flourish Ventures",
+        "offices": "San Francisco (United States)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Fintech, Digital Banking, Embedded Finance, Frontier Technology, Infrastructure, Insurtech, Regtech"
+      },{
+        "id": "/fontinalispartnersfontinalis.com/",
+        "title": "Fontinalis Partners",
+        "offices": "Detroit (United States), Boston (United States)",
+        "investment_stages": "Seed, Series A, Series B, Series C",
+        "investment_markets": "Autonomous vehicles, Transportation network, Freight intelligence, Weather and climate security platform, Industrial robotics, Metal additive manufacturing, Automotive financing, Flexible circuits, Supply chain, AI chips, Silicon carbide wafers for EVs, Electrification for public fleets, Microlocation, Location intelligence, Automotive &amp; IoT cybersecurity, Location-based social app, Mobile parking payment, On-demand delivery, Over-the-air (OTA) connected vehicle systems, Air cargo e-commerce software, High-efficiency solar technology, School bus fleet management, Enterprise fleet management, Flexible microtransit, Peer-to-peer carshare, E-commerce delivery, Indoor industrial drones, Mobile driving analytics, Seed Investments, Display advertising for mobility assets, Semiconductor fab, Energy management systems for EVs, Supply chain &amp; logistics automation, Open-source semiconductor design, Carshare for classic vehicles, Software for electricians, APIs for automotive commerce, Serverless geospatial data infrastructure, B2B autonomous vehicles, Machine learning, Unsupervised learning, Clean hydrogen, Fair &amp; transparent car insurance, ML-enabled custom battery cathodes, Simulation, Operating system for robotics, Autonomous flight, Enterprise carpooling, Geospatial data mapping, Autonomous dispatch &amp; routing, Generative AI gaming, AI training hardware &amp; software"
+      },{
+        "id": "/foxmontcapitalpartnersfoxmontcapital.com/",
+        "title": "Foxmont Capital Partners",
+        "offices": "Poblacion (Philippines), Orchard (Singapore)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "E-Commerce, Fintech, Healthtech, Logistics, Edtech, Media &amp; Entertainment, F&amp;B Tech, Manufacturing Tech, Energy, Insurtech, B2B SaaS"
+      },{
+        "id": "/fusefuse.vc/",
+        "title": "FUSE",
+        "offices": "Bellevue (United States), Seattle (United States)",
+        "investment_stages": "Pre-Seed, Seed, Series A",
+        "investment_markets": "SaaS, Legal, Emergency Services, Enterprise Software, Construction, Healthcare, Partner Marketing, Agriculture, Logistics, Communications, Shipping &amp; Freight, AI, Middleware, Data Retrieval, Mobile Workflow, Digital Likeness, Satellites, Hospitality, Insurance, Automotive, AI Video, Content Delivery, FinTech, Hardware, Data, Compliance, Gig Economy, Security, Digital Advertising, Restaurants, Authorization, Product Data, Process Automation, AI Voice, Industrial IoT, Field Service"
+      },{
+        "id": "/fusionvcfusionvc.com/",
+        "title": "Fusion VC",
+        "offices": "Tel Aviv (Israel), Dover (United States)",
+        "investment_stages": "Pre-seed, Seed",
+        "investment_markets": "AI &amp; ML, AR &amp; VR, Climate &amp; Energy, Consumer, Crypto &amp; Web3, Digital Health &amp; Wellness, E-Commerce &amp; CPG, Education, Enterprise, Fintech &amp; Insurance, Food &amp; Agriculture, Future of Work &amp; HR, Gaming &amp; Esports, Healthcare &amp; Life Science, IT, Cloud &amp; Communication, IoT &amp; Electronics, Legal Tech, Marketing &amp; Adtech, Marketplace, Mobile, Mobility &amp; Automotive, Real Estate &amp; Proptech, SaaS, Sales &amp; CRM, Security, Supply Chain &amp; Logistics"
+      },{
+        "id": "/gembacapitalventurepartnersgembacapital.in/",
+        "title": "Gemba Capital Venture Partners",
+        "offices": "Bengaluru (India), mumbai (India)",
+        "investment_stages": "Pre-seed, Seed, Series A",
+        "investment_markets": "Fintech, Insurtech, B2B, Alternative Investment, Consumer Tech, Gaming &amp; Entertainment, Omnichannel Ecommerce, Edtech, Healthtech, B2B Platforms, Agritech, Manufacturing 4.0, Cross-Border Commerce, Marketplace Infrastructure, Vertical Platforms"
+      },{
+        "id": "/geodesiccapitalgeodesiccap.com/",
+        "title": "Geodesic Capital",
+        "offices": "Tokyo (Japan), Foster City (United States)",
+        "investment_stages": "Series B, Series C, Series D",
+        "investment_markets": "AI/ML, Enterprise Applications, Enterprise Infrastructure, FinTech/InsurTech, Healthcare, Consumer"
+      },{
+        "id": "/globiscapitalpartnersglobiscapital.co.jp/",
+        "title": "Globis Capital Partners",
+        "offices": "Tokyo (Japan)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Consumer Marketplaces, HealthTech, E-commerce, FinTech, InsurTech, EdTech, Digital Media, Mobile, PropTech, FoodTech, Mobility, Cloud Infrastructure, Logistics, MarTech, Robotics, Advanced Manufacturing"
+      },{
+        "id": "/greenoaksgreenoaks.com/",
+        "title": "Greenoaks",
+        "offices": "San Francisco (United States)",
+        "investment_stages": "Series A, Series B, Series C, Series D",
+        "investment_markets": "AI, Enterprise Software, InsurTech, Cyber Security, FoodTech, Hospitality, TravelTech, HealthTech, Digital Health, PropTech, FinTech, "
+      },{
+        "id": "/heartcorecapitalheartcore.com/",
+        "title": "Heartcore Capital",
+        "offices": "Copenhagen (Denmark), Berlin (Germany), Paris (France), Stockholm (Sweden)",
+        "investment_stages": "Pre-seed, Seed, Series A",
+        "investment_markets": "Space, Data Analytics, SynBio, Web3, Ecommerce, Retail, Productivity, Mobility, Housing, Health and Wellness, Food, Finance and Insurance, Fashion, Entertainment, Energy, Education, Travel"
+      },{
+        "id": "/idventuresidventures.com/",
+        "title": "ID Ventures",
+        "offices": "Detroit (United States)",
+        "investment_stages": "Pre-Seed, Seed, Series A",
+        "investment_markets": "Software-B2B, Life Science, Advanced Materials and Manufacturing, Consumer Products, Business Services, Fintech/Insurance, Healthcare IT, Mobility, Adtech, Marketing"
+      },{
+        "id": "/ilabilab.com.tr/",
+        "title": "iLab",
+        "offices": "Istanbul (Turkey)",
+        "investment_stages": "Seed, Series A, Series B, Series C",
+        "investment_markets": "Insurtech, Online Employment, Real Estate, Automotive, Fintech, E-commerce, Travel"
+      },{
+        "id": "/incubatefundincubatefund.in/",
+        "title": "Incubate Fund",
+        "offices": "Tokyo (Japan), Bengaluru (India)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "Mobility, Enterprise Software, Gaming, eSports, TravelTech, HRTech, PropTech, EdTech, FinTech, InsurTech, HealthTech, Marketplaces"
+      },{
+        "id": "/intactventuresintactventures.com/",
+        "title": "Intact Ventures",
+        "offices": "Montréal (Canada), Toronto (Canada)",
+        "investment_stages": "Series A, Series B",
+        "investment_markets": "Insurtech, Fintech, Data, AI, Mobility, Supply Chain"
+      },{
+        "id": "/intudoventuresintudovc.com/",
+        "title": "Intudo Ventures",
+        "offices": "Jakarta (Indonesia)",
+        "investment_stages": "Pre-Series A, Series A, Series B",
+        "investment_markets": "Agriculture, B2B &amp; Enterprise, Education, Finance &amp; Insurance, Health &amp; Wellness, Logistics, New Retail &amp; Entertainment, Shipping and Trade"
+      },{
+        "id": "/ipdcapitalipdcapital.com/",
+        "title": "IPD Capital",
+        "offices": "Aventura (United States)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Biometric Validation and Security, Baby Monitoring Products, Shoes, Augmented Reality, Autonomous Driving, Architectural Materials, Chronic Disease Management, Digital Pharmacy, Auto Insurance, At-home Botox Treatments, Optical Machine Vision Software"
+      },{
+        "id": "/irisiris.vc/",
+        "title": "IRIS",
+        "offices": "Paris (France), Berlin (Germany), Munich (Germany)",
+        "investment_stages": "Seed, Series A, Series B, Series C",
+        "investment_markets": "AI &amp; Data, Fintech &amp; Insurtech, Cyber &amp; Security, Industry &amp; Logistics, Consumer &amp; Apps, Enterprise SaaS, Web3"
+      },{
+        "id": "/jerusalemventurepartnersjvpvc.com/",
+        "title": "Jerusalem Venture Partners",
+        "offices": "Jerusalem (Israel), New York City (United States)",
+        "investment_stages": "Series A, Series B",
+        "investment_markets": "AI, SaaS, Cyber Security, Fintech, Insurtech, Climatech"
+      },{
+        "id": "/kfundkfund.vc/",
+        "title": "Kfund",
+        "offices": "Madrid (Spain), Barcelona (Spain), Lisbon (Portugal)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Fintech, AI, Healthtech, Insurance, Hospitality, Pet healthcare, Textiles and apparel, SaaS"
+      },{
+        "id": "/kindredkindredcapital.vc/",
+        "title": "Kindred",
+        "offices": "London (United Kingdom)",
+        "investment_stages": "Pre-seed, Seed",
+        "investment_markets": "Medtech, Mobility, Enterprise / SaaS, Quantum, Productivity tools, Future of Work, Biotech, Healthtech, Robotics, Construction Tech, Environment / Sustainability, Insurtech, Marketing, Legal, Edtech, HR Tech, Fintech, Fashion Tech, Security / Privacy, AI, Travel, Cleantech, Regtech"
+      },{
+        "id": "/loyalvcloyal.vc/",
+        "title": "Loyal VC",
+        "offices": "Toronto (Canada), Costa Rica (Costa Rica), Geneva (Switzerland), Milan (Italy), Frankfurt (Germany), Shanghai (China), San Francisco (United States), Seattle (United States), Sydney (Australia), Lausanne (Switzerland), Silicon Valley (United States), Bay Area (United States), Toronto (Canada)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "Blockchain, Cleantech, AI, Fintech, Insurtech, Health, B2B Services"
+      },{
+        "id": "/luminarventuresluminarventures.com/",
+        "title": "Luminar Ventures",
+        "offices": "Stockholm (Sweden)",
+        "investment_stages": "Pre-seed, Seed",
+        "investment_markets": "DigitalTech (B2B/Enterprise, SaaS/Software, AI/ML, Big Data Analytics, AR/VR, FinTech/InsurTech, Digital Health, Cyber Security, Sustainability/ClimateTech, Consumer Internet, Gaming)"
+      },{
+        "id": "/mantaraymantaray.vc/",
+        "title": "Manta Ray",
+        "offices": "London (United Kingdom)",
+        "investment_stages": "Seed, Series A, Series B, Series C",
+        "investment_markets": "Enterprise, EdTech, FinTech, InsurTech, Consumer Elec, AR/VR, IoT, Wireless, ConstrucTech, Supply Chain, Space, Quantum, CyberSec, FoodTech, Robotics, BioTech, TravelTech, HealthTech, Data, Gaming, Mobility, Transport, Aerospace"
+      },{
+        "id": "/picuscapitalpicuscap.com/",
+        "title": "PICUS CAPITAL",
+        "offices": "Munich (Germany), London (United Kingdom), New York (United States), Beijing (China)",
+        "investment_stages": "Pre-Seed, Seed, Series A",
+        "investment_markets": "Fintech, SaaS, Healthtech, Energy, Climate Tech, Real Estate, Logistics, AI, Web3, Insurtech, E-commerce, HR Tech, Construction Tech"
+      },{
+        "id": "/pjcpjc.vc/",
+        "title": "PJC",
+        "offices": "Boston (United States), New York City (United States)",
+        "investment_stages": "Pre-Seed, Seed, Series A",
+        "investment_markets": "AI, Consumer, Enterprise, Fintech, Healthtech, InsurTech"
+      },{
+        "id": "/projectaprojecta.com/",
+        "title": "Project A",
+        "offices": "Berlin (Germany), London (United Kingdom)",
+        "investment_stages": "Pre-seed, Seed, Series A",
+        "investment_markets": "Climate &amp; Energy, Resilience &amp; Defence, Financial Technology, Global Supply Chains, Fintech, Healthtech, Commerce, Deeptech, Logistics, Mobility, Edtech, Gaming, Insurtech, Proptech, SaaS, Data, AI, B2B, B2C, Sustainability"
+      },{
+        "id": "/propelventurepartnerspropel.vc/",
+        "title": "Propel Venture Partners",
+        "offices": "San Francisco (United States)",
+        "investment_stages": "Pre-seed, Seed, Series A",
+        "investment_markets": "Cryptocurrency, Enterprise Software, Financial Services, FinTech, Generative AI, Insurance, InsurTech, Venture Capital, Web3"
+      },{
+        "id": "/questventuresquestventures.com/",
+        "title": "Quest Ventures",
+        "offices": "Singapore (Singapore), Beijing (China), Ho Chi Minh City (Vietnam), Jakarta (Indonesia), Kuala Lumpur (Malaysia), Manila (Philippines), Nur-Sultan (Kazakhstan)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "Artificial intelligence, E-commerce and marketplaces, Entertainment, Finance, Food, Insurance, Logistics, Media, Property, Sports, Islamic digital economy, Alternative food, Aviation, Banking"
+      },{
+        "id": "/rakutencapitalcapital.rakuten.com/",
+        "title": "Rakuten Capital",
+        "offices": "Tokyo (Japan), Luxembourg (Luxembourg), San Mateo (United States), Singapore (Singapore)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Fintech, Mobility, E-commerce, Information Technology, Payments, Lending, Asset Management, FX/Remittances, Insurance, Blockchain, Healthcare, Digital Media, Commerce, Communications, Marketing, Sustainability"
+      },{
+        "id": "/sabanventuressabanventures.com/",
+        "title": "Saban Ventures",
+        "offices": "Los Angeles (United States), Tel Aviv (Israel)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Media, Entertainment, Communication, SaaS, IoT, Digital Health, Mobility, B2B, B2C, Consumer, Enterprise, Security, Insurtech, Gaming"
+      },{
+        "id": "/sandalphoncapitalsandalphoncapital.com/",
+        "title": "Sandalphon Capital",
+        "offices": "Chicago (United States)",
+        "investment_stages": "Pre-Seed, Seed, Series A",
+        "investment_markets": "Digital Health, Healthcare IT, Insurance, Insurtech, Financial Services, FinTech, PropTech, Real Estate Tech, Construction Tech, Government, GovTech"
+      },{
+        "id": "/senseaiventuressenseai.ai/",
+        "title": "SenseAI Ventures",
+        "offices": "Gurgaon (India), San Francisco (United States), New York (United States)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "AI SaaS, AI B2C, AI Ecosystem, Skincare, Voice AI, E-Learning, Analytics, Data Science, Productivity, Healthcare, News, Corporate Travel, Insurance"
+      },{
+        "id": "/seventurepartnersseventure.fr/",
+        "title": "Seventure Partners",
+        "offices": "Paris (France), Munich (Germany), London (United Kingdom), Geneva (Switzerland), Basel (Switzerland)",
+        "investment_stages": "Series A, Series B",
+        "investment_markets": "Life Sciences, Digital Technologies, Fintech, Insurtech, Biotechnology, Pharmaceuticals, Connected Health, Medtech, Industrial Biotechnology, Microbiome, Nutrition, Foodtech, Personalized Medicine, Innovative Services, Software"
+      },{
+        "id": "/sixthirtyventuressixthirty.co/",
+        "title": "SixThirty Ventures",
+        "offices": "St. Louis (United States), Clayton (United States)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "Fintech, Insurtech, Privacy, Digital Health"
+      },{
+        "id": "/sonyinnovationfundsonyinnovationfund.com/",
+        "title": "Sony Innovation Fund",
+        "offices": "Tokyo (Japan), Weybridge (United Kingdom), San Mateo (United States), San Jose (United States), Hod Hasharon (Israel)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "DeepTech, Entertainment, Enterprise/SaaS, FinTech/InsurTech, ClimateTech, Healthcare, SportsTech, FoodTech, AgriTech, Robotics, AI, Drone, Mobility, Social/Commerce, EdTech, BeautyTech"
+      },{
+        "id": "/spidercapitalspidercapital.com/",
+        "title": "Spider Capital",
+        "offices": "San Francisco (United States)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "AI/ML, Customer Support, Data Tools, Dev Tools, Robotics, Vertical SaaS, Workforce Productivity, Construction, Energy, Government, Healthcare, Insurance, Manufacturing, Mining, Supply Chain, Transportation"
+      },{
+        "id": "/springtimeventuresspringtimeventures.com/",
+        "title": "SpringTime Ventures",
+        "offices": "Boulder (United States), Denver (United States), Austin (United States), Atlanta (United States)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "Fintech, Insurtech, Healthcare, Logistics, Supply Chain, Marketplace"
+      },{
+        "id": "/stoutstreetcapitalstoutstreetcapital.com/",
+        "title": "Stout Street Capital",
+        "offices": "Denver (United States)",
+        "investment_stages": "Pre-seed, Seed",
+        "investment_markets": "Software, Fintech, Advanced Materials, Robotics, AI, HealthTech, EdTech, CleanTech, MarTech, AR/VR, HR Tech, AdTech, Enterprise SaaS, Consumer Marketplace, Insurtech, Business Products &amp; Services (B2B), Real Estate Tech, Supply Chain Tech, Data Analytics, Cyber Security, Life Science, Construction Tech, IT, Healthcare, Energy, Consumer Products and Services (B2C)"
+      },{
+        "id": "/sureventuressure.ventures/",
+        "title": "Sure Ventures",
+        "offices": "Mountain View (United States)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "Insurtech, insurance, aging, care, mental health, wealth management"
+      },{
+        "id": "/taliscapitaltaliscapital.com/",
+        "title": "Talis Capital",
+        "offices": "London (United Kingdom)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "Data, CyberSec, FinTech, InsurTech, RegTech, HealthTech, Consumer, PropTech, AgTech, FoodTech"
+      },{
+        "id": "/techinvestcomtechinvestcom.com/",
+        "title": "Tech Invest Com",
+        "offices": "Riyadh (Saudi Arabia)",
+        "investment_stages": "Series A, Series B",
+        "investment_markets": "B2B SaaS, FinTech, PropTech, InsurTech, Internet Of Things (IoT), Analytics, HealthTech, Logistics"
+      },{
+        "id": "/thirdprimethirdprime.vc/",
+        "title": "Third Prime",
+        "offices": "New York (United States), Nashville (United States)",
+        "investment_stages": "Pre-Seed, Seed, Series A",
+        "investment_markets": "FinTech, PropTech, IndustrialTech, HealthTech, AI, Blockchain, Real Estate, Consumer, Supply Chain, Manufacturing, Energy, Logistics, Financial Services, Gaming, Recycling, Education, Travel, Insurance"
+      },{
+        "id": "/tlvpartnerstlv.partners/",
+        "title": "TLV Partners",
+        "offices": "Tel Aviv (Israel)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "AI/ML, Cloud, Cybersecurity, Data, DevTools, eCommerce, Fintech, GovTech, Health/Biotech, InsurTech, Legal Tech, Nonprofit Tech, PropTech, Quantum Computing"
+      },{
+        "id": "/truesightventurecapitaltruesight.vc/",
+        "title": "Truesight Venture Capital",
+        "offices": "London (United Kingdom), Stockholm (Sweden)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "Enterprise Software/B2B SaaS, FinTech, InsurTech, Consumer, AI/ML, Cloud, Gaming, Future of Work, HealthTech, Marketplaces"
+      },{
+        "id": "/underscorevcunderscore.vc/",
+        "title": "Underscore VC",
+        "offices": "Boston (United States)",
+        "investment_stages": "Pre-Seed, Seed",
+        "investment_markets": "B2B Software, Enterprise, Insurtech, Vertical SaaS, AI/ML, Fintech, Commerce, Web3/Blockchain, Healthtech"
+      },{
+        "id": "/unionsquareventuresusv.com/",
+        "title": "Union Square Ventures",
+        "offices": "New York City (United States)",
+        "investment_stages": "Seed, Series A, Series B, Series C",
+        "investment_markets": "Adtech, AI, Climate, Commerce, Community, Consumer, Creator Platform, Crypto, Data, Developer Tools, Education, Enterprise, Environment, Fintech, Food, Gaming, Hardware, Health, HR, Infrastructure, Insurance, Machine Learning, Marketplace, Media, Music, Privacy &amp; Security, Publishing, Real Estate, Social, Transportation, Workforce, Web3, Decentralized Systems, Energy"
+      },{
+        "id": "/uniontechventuresuniontech.co.il/",
+        "title": "Union Tech Ventures",
+        "offices": "Tel Aviv (Israel)",
+        "investment_stages": "Series A, Series B, Series C",
+        "investment_markets": "Consumer, Data, Digital health, Gaming, Insurtech, Marketing, Mobility, Property, Retail"
+      },{
+        "id": "/uniqaventuresuniqaventures.com/",
+        "title": "UNIQA Ventures",
+        "offices": "Vienna (Austria)",
+        "investment_stages": "Post-Seed, Series A, Series B",
+        "investment_markets": "FinTech, InsurTech, Digital Health"
+      },{
+        "id": "/unlockventurepartnersunlockvp.com/",
+        "title": "Unlock Venture Partners",
+        "offices": "Seattle (United States), Los Angeles (United States), San Francisco (United States)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "Clean energy, Music technology, Video technology, Space exploration, Messaging, Real estate, Mission management, Food, Fitness, AI, Insurance, Esports, Operations platforms, Life insurance, Creator tools, EMS training, Home repairs, Live video, Space ventures, Health data, Outdoor furniture, Pediatric care, Kitchen automation, Digital events, Fintech, E-commerce payments, Conversational AI, Micromobility, Financial solutions, UV cleaning technology, Video content"
+      },{
+        "id": "/violafintechviolagroup.com/",
+        "title": "Viola Fintech",
+        "offices": "Cambridge (United States), London (United Kingdom), Tel Aviv (Israel)",
+        "investment_stages": "Series A, Series B",
+        "investment_markets": "FinTech, InsurTech, RegTech, PropTech"
+      },{
+        "id": "/voltaventuresvolta.ventures/",
+        "title": "Volta Ventures",
+        "offices": "Gent (Belgium), Antwerp (Belgium), Amsterdam (Netherlands)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "FinTech, GreenTech, PropTech, MarTech, HealthTech, DevOps, Cybersecurity, InsurTech, AIOps, SupplychainTech, SalesTech, CloudOps, DataOps, HRTech, Gaming, Industry 4.0"
+      },{
+        "id": "/whitestarcapitalwhitestarcapital.com/",
+        "title": "White Star Capital",
+        "offices": "Guernsey (United Kingdom), New York (United States), London (United Kingdom), Montreal (Canada), Toronto (Canada), Paris (France), Tokyo (Japan), Singapore (Singapore)",
+        "investment_stages": "Series A, Series B, Series C",
+        "investment_markets": "Consumer, Enterprise, Fintech, SaaS, Digital Health, Commerce, Marketplace, Web3, Digital Assets, Transportation, Insurance"
+      },{
+        "id": "/wvvcapitalwvvcapital.com/",
+        "title": "WVV Capital",
+        "offices": "Milwaukee (United States)",
+        "investment_stages": "Seed, Series A",
+        "investment_markets": "Healthcare, Manufacturing, Building Technology, Insurance, Financial Technology, AI"
+      },{
+        "id": "/xangexange.vc/",
+        "title": "XAnge",
+        "offices": "Paris (France), Berlin (Germany), Munich (Germany)",
+        "investment_stages": "Seed, Series A, Series B",
+        "investment_markets": "Data, Deeptech, Care, Healthtech, Fintech, Enterprise software, SaaS, AI, B2B SaaS, ClimateTech, EdTech, Insurtech"
+      },{
+        "id": "/xyzventurecapitalxyz.vc/",
+        "title": "XYZ Venture Capital",
+        "offices": "San Francisco (United States)",
+        "investment_stages": "Seed, Series A, Series B, Series C",
+        "investment_markets": "Fintech, Enterprise, Insurance, Public Sector"
+      }]
