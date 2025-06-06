@@ -130,11 +130,20 @@
 
 <!-- Lunr.js from CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+
+<!-- VC Search & Render Script -->
 <script>
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get('query') || '';
   document.getElementById('search-query').textContent = query;
   document.querySelector('input[name="query"]').value = query;
+
+  function trimItems(text, maxCount) {
+    if (!text) return '';
+    const items = text.split(',').map(i => i.trim()).filter(Boolean);
+    const trimmed = items.slice(0, maxCount).join(', ');
+    return items.length > maxCount ? trimmed + '...' : trimmed;
+  }
 
   fetch('/search.json')
     .then(response => response.json())
@@ -156,6 +165,10 @@
       if (resultCount) {
         resultsContainer.innerHTML = results.map(result => {
           const item = data.find(doc => doc.id === result.ref);
+
+          const trimmedOffices = trimItems(item.offices, 2);
+          const trimmedMarkets = trimItems(item.investment_markets, 4);
+
           return `
             <div class="card mb-3">
               <div class="card-body">
@@ -163,10 +176,9 @@
                   <a href="${item.id}" class="text-decoration-none">${item.title}</a>
                 </h5>
                 <p class="card-text">
-                  ${item.description ? `<em>${item.description}</em><br>` : ''}
-                  Offices: ${item.offices}<br>
-                  Stages: ${item.investment_stages}<br>
-                  Markets: ${item.investment_markets}
+                  ${trimmedOffices ? `<strong>Offices:</strong> ${trimmedOffices}<br>` : ''}
+                  ${item.investment_stages ? `<strong>Stages:</strong> ${item.investment_stages}<br>` : ''}
+                  ${trimmedMarkets ? `<strong>Markets:</strong> ${trimmedMarkets}` : ''}
                 </p>
               </div>
             </div>

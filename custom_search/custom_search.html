@@ -34,6 +34,7 @@ permalink: /custom_search.html
 
 <!-- Lunr.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+
 <script>
   // Parse query parameters
   const urlParams = new URLSearchParams(window.location.search);
@@ -50,6 +51,14 @@ permalink: /custom_search.html
   // Display the custom list name
   const listName = jsonFile.replace(/\.json$/, '').replace(/_/g, ' ').toUpperCase();
   document.getElementById('list-name').textContent = listName;
+
+  // Helper function to trim items
+  function trimItems(text, maxCount) {
+    if (!text) return '';
+    const items = text.split(',').map(i => i.trim()).filter(Boolean);
+    const trimmed = items.slice(0, maxCount).join(', ');
+    return items.length > maxCount ? trimmed + '...' : trimmed;
+  }
 
   // Fetch the specified JSON file
   fetch(`{{ site.baseurl }}/custom_search/${jsonFile}`)
@@ -78,6 +87,9 @@ permalink: /custom_search.html
       if (resultCount) {
         resultsContainer.innerHTML = results.map(result => {
           const item = data.find(doc => doc.id === result.ref);
+          const trimmedOffices = trimItems(item.offices, 2);
+          const trimmedMarkets = trimItems(item.investment_markets, 4);
+
           return `
             <div class="card mb-3">
               <div class="card-body">
@@ -85,9 +97,9 @@ permalink: /custom_search.html
                   <a href="${item.id}" class="text-decoration-none">${item.title}</a>
                 </h5>
                 <p class="card-text">
-                  Offices: ${item.offices}<br>
-                  Stages: ${item.stages}<br>
-                  Markets: ${item.markets}
+                  ${trimmedOffices ? `<strong>Offices:</strong> ${trimmedOffices}<br>` : ''}
+                  ${item.investment_stages ? `<strong>Stages:</strong> ${item.investment_stages}<br>` : ''}
+                  ${trimmedMarkets ? `<strong>Markets:</strong> ${trimmedMarkets}` : ''}
                 </p>
               </div>
             </div>

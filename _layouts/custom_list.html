@@ -53,16 +53,37 @@ layout: default
     {% for firm_url in paginated_firms %}
       {% assign firm = site.vc_firms | where: "url", firm_url | first %}
       {% if firm %}
+        {% assign vc_id = firm.url | remove: "/" | replace: " ", "-" %}
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="card shadow-sm h-100 vc-card">
             <a href="{{ firm.url | relative_url }}" class="text-decoration-none card-link">
-              <div class="card-body">
+              <div class="card-body position-relative">
                 <h5 class="card-title">{{ firm.title }}</h5>
                 <p class="card-text text-muted">
-                  Offices: {{ firm.offices }}<br>
-                  Stages: {{ firm.investment_stages }}<br>
-                  Markets: {{ firm.investment_markets }}
+                  {% if firm.offices %}
+                    {% assign offices_list = firm.offices | split: "," %}
+                    <strong>Offices:</strong> {{ offices_list | slice: 0, 2 | join: ", " }}{% if offices_list.size > 2 %}...{% endif %}<br>
+                  {% endif %}
+
+                  {% if firm.investment_stages %}
+                    <strong>Stages:</strong> {{ firm.investment_stages }}<br>
+                  {% endif %}
+
+                  {% if firm.investment_markets %}
+                    {% assign markets_list = firm.investment_markets | split: "," %}
+                    <strong>Markets:</strong> {{ markets_list | slice: 0, 4 | join: ", " }}{% if markets_list.size > 4 %}...{% endif %}
+                  {% endif %}
                 </p>
+
+                <!-- Upvote Button -->
+                <button
+                  class="btn btn-sm btn-outline-primary upvote-button position-absolute top-0 end-0 m-2 py-0 px-2"
+                  data-vc-id="{{ vc_id }}"
+                  title="Upvote this firm"
+                  style="font-size: 0.75rem;"
+                >
+                  ▲ <span class="upvote-count" data-vc-id="{{ vc_id }}">0</span>
+                </button>
               </div>
             </a>
           </div>
@@ -121,3 +142,6 @@ layout: default
     </ul>
   </nav>
 </div>
+
+<!-- Firebase Upvote Script -->
+<script type="module" src="{{ '/assets/js/card-upvotes.js' | relative_url }}"></script>
