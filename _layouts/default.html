@@ -71,28 +71,31 @@
 
 <body data-vc-key="{{ page.permalink | remove_first:'/' | remove:'/' | replace:'.','_' }}">
   <!-- Header -->
-  <header class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
-    <div class="container">
-      <a href="{{ site.baseurl }}/" class="navbar-brand">projectstartups.com</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <nav class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="https://vc.projectstartups.com/" class="nav-link {% if page.url == 'https://vc.projectstartups.com/' %}active{% endif %}">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://vc.projectstartups.com/vc_list/" class="nav-link {% if page.url == 'https://vc.projectstartups.com/vc_list/' %}active{% endif %}">VC Lists</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://vc.projectstartups.com/buy/" class="nav-link {% if page.url == 'https://vc.projectstartups.com/buy/' %}active{% endif %}">Buy VC lists</a>
-          </li>
-
-        </ul>
-      </nav>
-    </div>
+	<header class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <a href="/" class="navbar-brand">projectstartups.com</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto align-items-md-center">
+        <li class="nav-item">
+          <a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">VC Directory Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/vc_list/" class="nav-link {% if page.url == '/vc_list/' %}active{% endif %}">Free VC Lists</a>
+        </li>
+        <li class="nav-item">
+          <a href="/buy/" class="btn btn-light btn-sm ms-md-3 mt-2 mt-md-0">Buy Full VC Database</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
+
+	
+	
 
 
 

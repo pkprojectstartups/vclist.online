@@ -1,15 +1,14 @@
 # Basic Site Settings
-title: "Project Startups – Open Access VC & Funded Startups Database"
-description: "Project Startups offers an open-access VC firms database, funded startup directory, and curated tools to support entrepreneurs, investors, and researchers."
+title: "projectstartups.com – Open-access VC & Funded Startups Database"
+description: "projectstartups.com offers an open-access VC firms database, funded startup directory, and curated tools to support entrepreneurs, investors, and researchers."
 baseurl: ""  # Path after your GitHub Pages URL
-url: "https://vc.projectstartups.com"  # Local server URL"  # Replace with your GitHub username or organization
+url: "https://vc.projectstartups.com"  # Replace with your GitHub username or organization
 
 # Theme Settings
 theme: minima
 
 styles:
   - assets/css/style.css
-
 
 # Collections
 collections:
@@ -18,7 +17,6 @@ collections:
     permalink: /:title/  # Pretty URLs based on firm title
   custom_lists:
     output: true  # Ensures custom list pages are generated
-
 
 # Markdown Configuration
 markdown: kramdown
@@ -30,5 +28,6 @@ permalink: pretty  # Clean URLs
 
 include:
   - search.json
+
 plugins:
 - jekyll-sitemap

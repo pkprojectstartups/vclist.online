@@ -48,6 +48,15 @@ layout: default
   <p class="text-muted mb-4">
     Showing <strong>{{ filtered_firms.size }}</strong> venture capital firms matching the filter criteria.
   </p>
+  
+  <!-- Top Buy CTA -->
+<div class="alert alert-success d-flex justify-content-between align-items-center p-3 mb-4">
+  <div>
+    Want all <strong>{{ total_items }}</strong> VC firms in one file?
+  </div>
+  <a href="/buy/" class="btn btn-success">Buy Full VC Database →</a>
+</div>
+
 
   <div class="row">
     {% for firm_url in paginated_firms %}
@@ -120,4 +129,13 @@ layout: default
       {% endif %}
     </ul>
   </nav>
+  
+  <!-- Bottom Buy CTA -->
+<div class="text-center mt-5">
+  <p class="fw-semibold">Looking to save time?</p>
+  <a href="/buy/" class="btn btn-outline-dark btn-sm">Download All VC Firms in CSV – $45</a>
+</div>
+
+  
+  
 </div>

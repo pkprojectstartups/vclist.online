@@ -25,6 +25,17 @@ per_page: 30
     Showing <strong>{{ total_items }}</strong> venture capital firms.
   </p>
 
+	<!-- Top Buy CTA -->
+<div class="alert alert-success d-flex justify-content-between align-items-center p-3 mb-4">
+  <div>
+    Want all <strong>{{ total_items }}</strong> VC firms in one file?
+  </div>
+  <a href="/buy/" class="btn btn-success">Buy Full VC Database →</a>
+</div>
+
+
+
+
   <!-- VC Firms Grid -->
   <div class="row">
     {% for firm in paginated_items %}
@@ -121,6 +132,15 @@ per_page: 30
       {% endif %}
     </ul>
   </nav>
+  
+  <!-- Bottom Buy CTA -->
+<div class="text-center mt-5">
+  <p class="fw-semibold">Looking to save time?</p>
+  <a href="/buy/" class="btn btn-outline-dark btn-sm">Download All VC Firms in CSV – $45</a>
+</div>
+
+  
+  
 </div>
 
 <!-- Upvote Script -->

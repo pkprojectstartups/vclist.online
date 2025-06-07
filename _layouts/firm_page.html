@@ -11,14 +11,19 @@ permalink: /vclist.online/{{ page.slug }}/
 
           <!-- Header Section -->
           <div class="text-center mb-4">
-            <h1 class="card-title display-5">{{ page.title }}</h1>
-            {% if page.description %}
-              <p class="lead mt-2">{{ page.description }}</p>
-            {% endif %}
-            <button id="upvoteButton" class="btn btn-outline-success btn-lg mt-3">
-              + <span id="upvoteCount">0</span> Upvotes
-            </button>
-          </div>
+  <h1 class="card-title display-5">{{ page.title }}</h1>
+  {% if page.description %}
+    <p class="lead mt-2">{{ page.description }}</p>
+  {% endif %}
+  <button id="upvoteButton" class="btn btn-outline-success btn-lg mt-3">
+    + <span id="upvoteCount">0</span> Upvotes
+  </button>
+  <br>
+  <a href="https://payhip.com/projectstartups" target="_blank" class="btn btn-outline-primary btn-lg mt-3">
+    📥 Buy Full VC Dataset
+  </a>
+</div>
+
 
           <!-- Firm Info in Specific Order -->
           <div class="firm-info">
@@ -38,7 +43,13 @@ permalink: /vclist.online/{{ page.slug }}/
             {% if page.pitchbook %}<p><strong>Pitchbook:</strong> <a href="{{ page.pitchbook }}" target="_blank">{{ page.pitchbook }}</a></p>{% endif %}
           </div>
 
-          <hr class="my-4">
+          <div class="text-center mt-4">
+  <a href="https://payhip.com/projectstartups" target="_blank" class="btn btn-primary btn-lg">
+    📥 Download Full VC Dataset
+  </a>
+</div>
+
+<hr class="my-4">
 
           <!-- Comments Section -->
           <h2 class="mb-4">Leave a Comment</h2>
