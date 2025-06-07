@@ -52,16 +52,24 @@ per_page: 30
             {% if firm.offices %}
               <strong>Offices:</strong>
               {% assign offices_list = firm.offices | split: "," %}
-              {{ offices_list | slice: 0, 3 | join: ", " }}<br>
+             {{ offices_list | slice: 0, 2 | join: ", " }}
+
+
+              {% if firm.offices contains "," and offices_list.size > 3 %}...{% endif %}<br>
             {% endif %}
+
             {% if firm.investment_stages %}
               <strong>Stages:</strong> {{ firm.investment_stages }}<br>
             {% endif %}
+
             {% if firm.investment_markets %}
               <strong>Markets:</strong>
               {% assign markets_list = firm.investment_markets | split: "," %}
-              {{ markets_list | slice: 0, 6 | join: ", " }}<br>
+              {{ markets_list | slice: 0, 4 | join: ", " }}
+
+              {% if firm.investment_markets contains "," and markets_list.size > 6 %}...{% endif %}<br>
             {% endif %}
+
             {% if firm.founded_year %}
               <strong>Founded:</strong> {{ firm.founded_year }}<br>
             {% endif %}
