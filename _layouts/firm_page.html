@@ -19,11 +19,10 @@ permalink: /vclist.online/{{ page.slug }}/
     + <span id="upvoteCount">0</span> Upvotes
   </button>
   <br>
-  <a href="https://payhip.com/projectstartups" target="_blank" class="btn btn-outline-primary btn-lg mt-3">
-    📥 Buy Full VC Dataset
+  <a href="/buy/" target="_blank" class="btn btn-outline-primary btn-lg mt-3">
+    Buy Download
   </a>
 </div>
-
 
           <!-- Firm Info in Specific Order -->
           <div class="firm-info">
@@ -44,10 +43,111 @@ permalink: /vclist.online/{{ page.slug }}/
           </div>
 
           <div class="text-center mt-4">
-  <a href="https://payhip.com/projectstartups" target="_blank" class="btn btn-primary btn-lg">
-    📥 Download Full VC Dataset
+  <a href="/buy/" target="_blank" class="btn btn-primary btn-lg">
+    Buy Download
   </a>
 </div>
+
+
+
+
+{% assign all_firms = site.vc_firms %}
+{% assign similar_firms = "" | split: "" %}
+
+<!-- Prefer Similar by Investment Markets -->
+{% if page.investment_markets %}
+  {% assign current_markets = page.investment_markets | split: ", " %}
+  {% for firm in all_firms %}
+    {% if firm.title != page.title and firm.investment_markets %}
+      {% assign other_markets = firm.investment_markets | split: ", " %}
+      {% for market in current_markets %}
+        {% if other_markets contains market %}
+          {% assign similar_firms = similar_firms | push: firm %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% if similar_firms.size >= 6 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+<!-- Fallback to Similar by Offices -->
+{% elsif page.offices %}
+  {% assign current_offices = page.offices | split: ", " %}
+  {% for firm in all_firms %}
+    {% if firm.title != page.title and firm.offices %}
+      {% assign other_offices = firm.offices | split: ", " %}
+      {% for office in current_offices %}
+        {% if other_offices contains office %}
+          {% assign similar_firms = similar_firms | push: firm %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% if similar_firms.size >= 6 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+<!-- Fallback to Similar by Investment Stages -->
+{% elsif page.investment_stages %}
+  {% assign current_stages = page.investment_stages | split: ", " %}
+  {% for firm in all_firms %}
+    {% if firm.title != page.title and firm.investment_stages %}
+      {% assign other_stages = firm.investment_stages | split: ", " %}
+      {% for stage in current_stages %}
+        {% if other_stages contains stage %}
+          {% assign similar_firms = similar_firms | push: firm %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% if similar_firms.size >= 6 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if similar_firms.size > 0 %}
+  <hr class="my-4" />
+  <h2 class="text-left mb-4">Similar VC Firms</h2>
+  <div class="row">
+    {% for matched in similar_firms %}
+      <div class="col-md-6 col-lg-4 mb-4">
+        <a href="{{ matched.url }}" class="text-decoration-none text-dark h-100 d-block">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 1.1rem;">{{ matched.title }}</h5>
+              <div class="text-muted small">
+                {% if matched.investment_markets %}
+                  <strong>Markets:</strong>
+                  {% assign market_list = matched.investment_markets | split: ", " %}
+                  {{ market_list | slice: 0, 2 | join: ", " }}{% if market_list.size > 2 %},...{% endif %}<br>
+                {% endif %}
+                {% if matched.offices %}
+                  <strong>Offices:</strong>
+                  {% assign office_list = matched.offices | split: ", " %}
+                  {{ office_list | slice: 0, 1 | join: "" }}
+                  {% if office_list.size > 1 %}+{{ office_list.size | minus: 1 }} more{% endif %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+
+
+
+
+
+
+
 
 <hr class="my-4">
 

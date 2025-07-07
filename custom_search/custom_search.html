@@ -84,30 +84,48 @@ permalink: /custom_search.html
 
       // Display the search results
       const resultsContainer = document.getElementById('search-results');
-      if (resultCount) {
-        resultsContainer.innerHTML = results.map(result => {
-          const item = data.find(doc => doc.id === result.ref);
-          const trimmedOffices = trimItems(item.offices, 2);
-          const trimmedMarkets = trimItems(item.investment_markets, 4);
+      
+	  if (resultCount) {
+  let html = `
+    <div class="alert alert-info d-flex justify-content-between align-items-center mb-4">
+      <div><strong>Get VC firm lists</strong></div>
+      <a href="/buy/" target="_blank" class="btn btn-sm btn-primary">Buy Download</a>
+    </div>
+  `;
 
-          return `
-            <div class="card mb-3">
-              <div class="card-body">
-                <h5 class="card-title">
-                  <a href="${item.id}" class="text-decoration-none">${item.title}</a>
-                </h5>
-                <p class="card-text">
-                  ${trimmedOffices ? `<strong>Offices:</strong> ${trimmedOffices}<br>` : ''}
-                  ${item.investment_stages ? `<strong>Stages:</strong> ${item.investment_stages}<br>` : ''}
-                  ${trimmedMarkets ? `<strong>Markets:</strong> ${trimmedMarkets}` : ''}
-                </p>
-              </div>
-            </div>
-          `;
-        }).join('');
-      } else {
-        resultsContainer.innerHTML = '<p>No results found.</p>';
-      }
+  html += results.map(result => {
+    const item = data.find(doc => doc.id === result.ref);
+    const trimmedOffices = trimItems(item.offices, 2);
+    const trimmedMarkets = trimItems(item.investment_markets, 4);
+
+    return `
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="${item.id}" class="text-decoration-none">${item.title}</a>
+          </h5>
+          <p class="card-text">
+            ${trimmedOffices ? `<strong>Offices:</strong> ${trimmedOffices}<br>` : ''}
+            ${item.investment_stages ? `<strong>Stages:</strong> ${item.investment_stages}<br>` : ''}
+            ${trimmedMarkets ? `<strong>Markets:</strong> ${trimmedMarkets}` : ''}
+          </p>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  resultsContainer.innerHTML = html;
+} else {
+  resultsContainer.innerHTML = '<p>No results found.</p>';
+}
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
     })
     .catch(error => {
       console.error('Error fetching or searching JSON:', error);
