@@ -1,0 +1,17 @@
+---
+layout: none
+permalink: /sitemap/sitemap3.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign all_vcs = site.vc_firms %}
+  {% assign paginated_vcs = all_vcs | slice: 1000, 1500 %}
+  {% for firm in paginated_vcs %}
+    {% if firm.website and firm.title %}
+      <url>
+        <loc>{{ firm.canonical_url | default: firm.url | absolute_url }}</loc>
+        <lastmod>{{ firm.date | date_to_xmlschema }}</lastmod>
+      </url>
+    {% endif %}
+  {% endfor %}
+</urlset>
