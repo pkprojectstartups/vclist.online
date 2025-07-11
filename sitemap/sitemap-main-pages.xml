@@ -2,11 +2,19 @@
 layout: none
 permalink: /sitemap/sitemap-main-pages.xml
 ---
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>{{ site.url }}/</loc></url>
+
   {% for page in site.pages %}
-    {% if page.url contains '/pages/page' and page.current_page <= 5 %}
-      <url><loc>{{ page.url | absolute_url }}</loc></url>
+    {% if page.path contains 'pages/page' and page.path ends_with: '.html' %}
+      {% assign filename = page.path | split: '/' | last | replace: '.html', '' %}
+      {% assign page_num = filename | remove: 'page' | plus: 0 %}
+      {% if page_num <= 5 %}
+        <url>
+          <loc>{{ page.url | absolute_url }}</loc>
+        </url>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </urlset>
