@@ -1,0 +1,12 @@
+---
+layout: none
+permalink: /sitemap/sitemap-custom-lists.xml
+---
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign static_files = site.static_files %}
+  {% for file in static_files %}
+    {% if file.path contains 'custom_lists/' and file.path contains '/index.html' %}
+      <url><loc>{{ site.url }}{{ file.path | replace: '/index.html', '/' }}</loc></url>
+    {% endif %}
+  {% endfor %}
+</urlset>
