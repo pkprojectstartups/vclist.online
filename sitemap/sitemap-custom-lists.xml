@@ -2,11 +2,14 @@
 layout: none
 permalink: /sitemap/sitemap-custom-lists.xml
 ---
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% assign static_files = site.static_files %}
-  {% for file in static_files %}
-    {% if file.path contains 'custom_lists/' and file.path contains '/index.html' %}
-      <url><loc>{{ site.url }}{{ file.path | replace: '/index.html', '/' }}</loc></url>
+  {% for page in site.pages %}
+    {% if page.url contains 'custom_lists/' and page.url ends_with: '/' %}
+      <url>
+        <loc>{{ page.url | absolute_url }}</loc>
+      </url>
     {% endif %}
   {% endfor %}
 </urlset>
+
