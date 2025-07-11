@@ -1,1 +1,15 @@
-
+---
+layout: none
+permalink: /sitemap/sitemap-category-pagination.xml
+---
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign static_files = site.static_files %}
+  {% for file in static_files %}
+    {% if file.path contains 'custom_lists/' and file.path contains 'page' and file.path contains '.html' %}
+      {% assign page_num = file.path | split: 'page' | last | remove: '.html' | plus: 0 %}
+      {% if page_num <= 3 %}
+        <url><loc>{{ site.url }}{{ file.path }}</loc></url>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</urlset>
