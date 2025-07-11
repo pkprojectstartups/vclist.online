@@ -1,0 +1,12 @@
+---
+layout: none
+permalink: /sitemap/sitemap-main-pages.xml
+---
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ site.url }}/</loc></url>
+  {% for page in site.pages %}
+    {% if page.url contains '/pages/page' and page.current_page <= 5 %}
+      <url><loc>{{ page.url | absolute_url }}</loc></url>
+    {% endif %}
+  {% endfor %}
+</urlset>
