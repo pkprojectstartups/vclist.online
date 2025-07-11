@@ -12,4 +12,3 @@ permalink: /sitemap/sitemap-custom-lists.xml
     {% endif %}
   {% endfor %}
 </urlset>
-
