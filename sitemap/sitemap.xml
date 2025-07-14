@@ -8,7 +8,7 @@ permalink: /sitemap/sitemap.xml
     <sitemap><loc>{{ site.url }}/sitemap/sitemap2.xml</loc></sitemap>
     <sitemap><loc>{{ site.url }}/sitemap/sitemap3.xml</loc></sitemap>
   <!-- Add more if needed -->
-  <sitemap><loc>{{ site.url }}/sitemap/sitemap-main-pages.xml</loc></sitemap>
   <sitemap><loc>{{ site.url }}/sitemap/sitemap-custom-lists.xml</loc></sitemap>
-  <sitemap><loc>{{ site.url }}/sitemap/sitemap-category-pagination.xml</loc></sitemap>
+  <sitemap><loc>{{ site.url }}/sitemap/sitemap-pages.xml</loc></sitemap>
+
 </sitemapindex>
