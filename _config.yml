@@ -28,6 +28,3 @@ permalink: pretty  # Clean URLs
 
 include:
   - search.json
-
-plugins:
-- jekyll-sitemap
